@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Kontakt</title>
+</head>
+
+<body style="background-color:#000000;">
+
+  <div class="container">
+    <div class="main-rec">
+        <header>
+          <nav id = menu class="menu">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about_me.html">About Me</a></li>
+              <li><a href="projekte.html">Projekte</a></li>
+              <li><a href="zertifikate.html">Zertifikate</a></li>
+              <li><a href="lebenslauf.html">Lebenslauf</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </nav>
+          
+        </header>
+        <div class= "line"></div>
+    </div>
+  
+
+    <div id=rectangle></div>
+    <img id="img-mail" src="bilder/email.png" alt="mail">
+    <img id="img-office" src="bilder/office.jpg" alt="office">
+
+    <div id=mail-absender>
+      <p>Ihre E-Mail</p>
+    </div>
+
+    <div id=name-absender>
+      <p>Ihr Name</p>
+    </div>
+
+    <form id="kontaktformular" name="kontaktformular" action="sibylle.gehring@hotmail.com" method="post"
+      enctype="text/plain">
+      <div>
+        <input type="text" id="absender" name="absender" />
+      </div>
+      <div>
+        <input tyoe="text" id="name" name="name">
+      </div>
+      <div>
+        <textarea id="nachricht" name="nachricht"></textarea>
+      </div>
+      <!---<div>
+            <input type="submit" value="Abschicken" />
+          </div>-->
+    </form>
+  </div>
+  <div class ="footer">
+    <footer>Erstellt von Sibylle Gehring | HTML, CSS, JS</footer>
+  </div>
+</body>
+
+</html>
