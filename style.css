@@ -998,7 +998,6 @@ a:hover {
         display: flex;
         padding: 0;
         margin-top: 230px;
-
         list-style: none;
         text-align: center;
         min-height: 100vh;
@@ -1075,7 +1074,7 @@ a:hover {
         width: 400px;
         height: 600px;
         perspective: 1000px;
-        margin-left: 7%;
+        margin-left: 8%;
     }
     
     .flip-card-1:hover .flip-card-inner {
