@@ -610,7 +610,7 @@ a:hover {
 
     .rectangle-aboutme {
         position: absolute;
-        margin-top: 6%;
+        margin-top: 8%;
         height: 750px;
         width: 85%;
         background-color: #666666;
@@ -622,7 +622,7 @@ a:hover {
 
     #aboutme-img {
         position: absolute;
-        top: 17%;
+        top: 18%;
         margin-left: 7%;
         width: 190px;
         height: 250px;
@@ -642,6 +642,8 @@ a:hover {
     .aboutme-p {
 
         float: left;
+        margin-top: 6%;
+
         font-family: 'Courier New', Courier, monospace;
         word-wrap: break-all;
         font-size: 1.3em;
@@ -662,10 +664,9 @@ a:hover {
         font-size: 130%;
         font-weight: bold;
         text-align: left;
-        margin-left: 20%;
+        margin-left: 30%;
         line-height: 50px;
-        margin-bottom: 3%;
-        margin-top: 1%;
+        margin-top: 3%;
 
     }
 
@@ -771,7 +772,7 @@ a:hover {
     top: 200px;
 }
 
-/*Einzelne Elemente fÃ¼r die Zertifikate*/
+/*Einzelne Elemente für die Zertifikate*/
 
 #zert-titel1 {
     position: absolute;
