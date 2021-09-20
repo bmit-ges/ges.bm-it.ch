@@ -22,7 +22,7 @@
             <li><a href="projekte.html">Projekte</a></li>
             <li><a href="zertifikate.html">Zertifikate</a></li>
             <li><a href="lebenslauf.html">Lebenslauf</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="kontakt.php">Kontakt</a></li>
           </ul>
         </nav>
         
@@ -31,32 +31,34 @@
   </div>
   
   <div id=rectangle></div>
-        <img id="img-mail" src="bilder/email.png" alt="mail">
-        <img id="img-office" src="bilder/office.jpg" alt="office">
-
-        <div id=mail-absender>
-        <p>Ihre E-Mail</p>
-        </div>
-
-        <div id=name-absender>
-        <p>Ihr Name</p>
-    </div>
+      <img id="img-mail" src="bilder/stamp.png" alt="stamp">
+      <img id="img-office" src="bilder/office.jpg" alt="office">
+  </div>
 
     <?php
         if(isset($_POST["submit"])){
         mail("sibylle.gehring@hotmail.com", "kontaktformular",'Name: '.$_POST["name"]. 'Email: '.$_POST["email"].'Nachricht: '.$_POST["nachricht"]);
         ?>
-        <h1 style="color: green;">Erfolgreich!</h1>
+        <script type="text/javascript" language="Javascript"> 
+          alert("Erfolgreich gesendet")
+        </script> 
         <?php 
     }
     ?>
 
-    <form name="kontaktformular" action="index.php" method="post">
-      <input id = "" type="email" id="email" name="email" required />
-      <input type="text" id="name" name="name" required>
-      <textarea id="nachricht" name="nachricht" required></textarea>
-      <button type="submit" name="submit"> Senden</button>
+ 
+
+  <form name="kontaktformular" action="kontakt.php" method="post">
+      <input type="email" id="email" name="email" placeholder="E-Mail" required />
+      <input type="text" id="name" name="name" placeholder = "Name" required>
+      <textarea id="nachricht" name="nachricht" placeholder = "Nachricht" required></textarea>
+      <button type="submit" id="submit" name="submit"> Senden</button>
   </form> 
+
+  
+  <footer>
+    <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS, PHP</div>
+  </footer>
 
 </body>
 
