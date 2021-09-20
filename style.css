@@ -105,22 +105,11 @@ footer {
 
 /*Intro*/
 
-.container{
-    display: flex;
-    margin:0;
-    padding:0;
-    height: 100%;
-    width: 100%;
-}
 
 .kreis {
-    position: absolute;
-    margin-left: 732px;
-    margin-top: 252px;
 
     width: 500px;
     height: 500px;
-
     background-color: #000000;
     border-radius: 50%;
     filter: blur(2px);
@@ -132,16 +121,12 @@ footer {
 
 
 .welcome {
-
     position: absolute;
-    margin-left: 732px;
-    margin-top: 252px;
-    vertical-align: middle;
-    
     width: 500px;
     height: 500px;
-    
+
     line-height: 500px;
+
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -155,10 +140,10 @@ footer {
 .welcome-animation-1 {
 
     position: absolute;
-    left: 37%;
-    top: 230px;
     width: 550px;
     height: 550px;
+    order: 3;
+    justify-content: center;
     background-color: #ffffff31;
     filter: blur(5px);
     border-radius: 40%;
@@ -170,11 +155,7 @@ footer {
 }
 
 .welcome-animation-2 {
-
     position: absolute;
-    left: 37%;
-    top: 230px;
-
     width: 550px;
     height: 550px;
     order: 3;
@@ -191,9 +172,6 @@ footer {
 
 .welcome-animation-3 {
     position: absolute;
-    left: 37%;
-    top: 230px;
-
     width: 550px;
     height: 550px;
     order: 3;
@@ -210,9 +188,6 @@ footer {
 
 .welcome-animation-4 {
     position: absolute;
-    left: 37%;
-    top: 230px;
-
     width: 550px;
     height: 550px;
     order: 3;
@@ -231,9 +206,6 @@ footer {
 
 .welcome-animation-5 {
     position: absolute;
-    left: 37%;
-    top: 230px;
-
     width: 550px;
     height: 550px;
     order: 3;
@@ -252,9 +224,6 @@ footer {
 
 .welcome-animation-6 {
     position: absolute;
-    left: 37%;
-    top: 230px;
-
     width: 550px;
     height: 550px;
     order: 3;
@@ -786,11 +755,10 @@ p {
 
 #img-mail {
     position: absolute;
-    height: 40px;
-    width: 65px;
-    top: 350px;
-    margin-top: -20px;
-    left: 500px;
+    height: 105px;
+    width: 90px;
+    top: 255px;
+    left: 550px;
     filter: invert(1);
     z-index: 4;
 }
@@ -806,19 +774,11 @@ form {
     border-radius: 15px;
 }
 
-#mail-absender {
-    position: absolute;
-    top: 325px;
-    left: 150px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #f5f5f5;
-    font-size: 1em;
-    z-index: 4;
 
-}
-
-input#absender {
-    position: absolute;
+input#email {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 45px;
     width: 300px;
     top: 150px;
     left: 50px;
@@ -827,19 +787,11 @@ input#absender {
     color: #000000;
 }
 
-#name-absender {
-    position: absolute;
-    top: 260px;
-    left: 150px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #f5f5f5;
-    font-size: 1em;
-    z-index: 4;
-
-}
 
 input#name {
-    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 45px;
     width: 300px;
     top: 100px;
     left: 50px;
@@ -850,7 +802,9 @@ input#name {
 
 
 textarea#nachricht {
-    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 45px;
     width: 510px;
     height: 200px;
     top: 250px;
@@ -858,5 +812,14 @@ textarea#nachricht {
     z-index: 3;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
+
+}
+
+button#submit{
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 45px;
+
 
 }
