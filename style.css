@@ -25,6 +25,8 @@ a:visited {
 li {
     float: left;
     list-style: none;
+    margin-right: 1%;
+    margin-left: 0.5%;
     padding: 5px 10px;
     z-index: 5;
 
@@ -42,6 +44,8 @@ a:hover {
 
 @media only screen and (max-width: 480px) {
 
+
+
     .container {
         display: flex;
         padding: 0;
@@ -50,7 +54,7 @@ a:hover {
         justify-content: center;
         text-align: center;
         width: 100%;
-        height: 250px;
+        min-height: 100vh;
 
     }
 
@@ -62,16 +66,20 @@ a:hover {
     }
 
 
+
     li {
         width: 100%;
         height: 20px;
         line-height: 10px;
-        padding:0;
+        padding: 0;
         padding-top: 10px;
         border-bottom: 3px solid #666666;
+        border-width: 100%;
+        margin-left: -6%;
         list-style: none;
         z-index: 3;
-        margin-left: -5%;
+
+
     }
 
     .main-rec {
@@ -82,7 +90,6 @@ a:hover {
         margin-bottom: 50px;
         background-color: rgb(2, 0, 0);
         z-index: 3;
-       
     }
 
 
@@ -982,184 +989,93 @@ a:hover {
 }
 
 
-
 /*Lebenslauf Seite*/
 
-@media only screen and (max-width: 480px){
+p {
+    margin: 0px;
+}
 
-    .container-2 {
-        display: flex;
-        padding: 0;
-        margin-top: 3410px;
-        list-style: none;
-        text-align: center;
-        min-height: 100vh;
-        flex-flow: column wrap;
-        justify-content: center;
-        width: 100%;
-    }
+#year-p {
+    float: left;
+    margin-top: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+    word-wrap: break-all;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f5f5;
+    font-size: 1.25em;
+    transform: translateY(-50%);
 
-    p {
-        margin: 0px;
-    }
-    
-    #year-p {
-        float: left;
-        margin-top: 75%;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        justify-content: center;
-        word-wrap: break-all;
-        font-family: 'Courier New', Courier, monospace;
-        color: #f5f5f5;
-        font-size: 1.25em;
-        transform: translateY(-50%);
-       
-    }
-    
-    #year {
-        float: left;
-        margin-top: 70%;
-        position: absolute;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
-        letter-spacing: 0.15em;
-        font-size: 2em;
-        color: #f5f5f5;
-        transform: translateY(-50%);
-        left: 50%;
-        transform: translateX(-50%);
-        white-space: nowrap;
-    }
-    
-    .flip-card-front {
-        background-color: #666666;
-    }
-    
-    .flip-card-back {
-        background-color: #666666;
-        transform: rotateY(180deg);
-    
-    }
-      
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transition: transform 1s;
-        transform-style: preserve-3d;
-    }
-  
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-    
-    }
-    
-    .flip-card-1 {
-        margin-bottom: 5%;
-        background-color: transparent;
-        width: 85%;
-        height: 600px;
-        perspective: 1000px;
-        margin-left: 8%;
-        
-    }
-    
-    .flip-card-1:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 480px){
+#year {
+    float: left;
+    margin-top: 70%;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-size: 2em;
+    color: #f5f5f5;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
 
-    p {
-        margin: 0px;
-    }
-    
-    #year-p {
-        float: left;
-        margin-top: 75%;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        justify-content: center;
-        word-wrap: break-all;
-        font-family: 'Courier New', Courier, monospace;
-        color: #f5f5f5;
-        font-size: 1.25em;
-        transform: translateY(-50%);
-    
-    
-    }
-    
-    #year {
-        float: left;
-        margin-top: 70%;
-        position: absolute;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
-        letter-spacing: 0.15em;
-        font-size: 2em;
-        color: #f5f5f5;
-        transform: translateY(-50%);
-        left: 50%;
-        transform: translateX(-50%);
-        white-space: nowrap;
-    }
-    
-    .flip-card-front {
-        background-color: #666666;
-        box-shadow: 10px 10px 5px #cccccc;
-    
-    }
-    
-    .flip-card-back {
-        background-color: #666666;
-        box-shadow: 10px 10px 5px #cccccc;
-        transform: rotateY(180deg);
-    
-    }
-      
-    .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transition: transform 1s;
-        transform-style: preserve-3d;
-    }
-  
-    .flip-card-front,
-    .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-    
-    }
-    
-    .flip-card-1 {
-        float: left;
-        margin-top: 8%;
-        margin-left: 3%;
-        margin-right: 8%;
-        margin-bottom: 5%;
-        background-color: transparent;
-        width: 400px;
-        height: 600px;
-        perspective: 1000px;
-    
-    }
-    
-    .flip-card-1:hover .flip-card-inner {
-        transform: rotateY(180deg);
-    }
+.flip-card-front {
+    background-color: #666666;
+    box-shadow: 10px 10px 5px #cccccc;
 
+}
+
+.flip-card-back {
+    background-color: #666666;
+    box-shadow: 10px 10px 5px #cccccc;
+    transform: rotateY(180deg);
+
+}
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+}
+
+
+
+.flip-card-1 {
+    float: left;
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    background-color: transparent;
+    width: 400px;
+    height: 600px;
+    perspective: 1000px;
+
+}
+
+.flip-card-1:hover .flip-card-inner {
+    transform: rotateY(180deg);
 }
 
 
