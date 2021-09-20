@@ -29,47 +29,35 @@
       </header>
       <div class= "line"></div>
   </div>
+  
+  <div id=rectangle></div>
+        <img id="img-mail" src="bilder/email.png" alt="mail">
+        <img id="img-office" src="bilder/office.jpg" alt="office">
 
+        <div id=mail-absender>
+        <p>Ihre E-Mail</p>
+        </div>
 
-    <div id=rectangle></div>
-    <img id="img-mail" src="bilder/email.png" alt="mail">
-    <img id="img-office" src="bilder/office.jpg" alt="office">
-
-    <div id=mail-absender>
-      <p>Ihre E-Mail</p>
+        <div id=name-absender>
+        <p>Ihr Name</p>
     </div>
 
-    <div id=name-absender>
-      <p>Ihr Name</p>
-    </div>
- 
-  <?php
-    if(isset($_POST["submit"])){
-        mail("sibylle.gehring@hotmail.com", "kontaktformular",'Name: '.$_POST.["name"]. 'Email: '.$_POST["email"].'Nachricht: '.$_POST["nachricht"]);
-        
+    <?php
+        if(isset($_POST["submit"])){
+        mail("sibylle.gehring@hotmail.com", "kontaktformular",'Name: '.$_POST["name"]. 'Email: '.$_POST["email"].'Nachricht: '.$_POST["nachricht"]);
+        ?>
+        <h1 style="color: green;">Erfolgreich!</h1>
+        <?php 
+    }
     ?>
 
-    <h1 style="color: green;">Erfolgreich!</h1>
-    <?php 
-  }
-  ?>
-
-  <form id="kontaktformular" name="kontaktformular" action="index.php" method="post">
-
-      <input type="email" id="email" name="email" required />
-
+    <form name="kontaktformular" action="index.php" method="post">
+      <input id = "" type="email" id="email" name="email" required />
       <input type="text" id="name" name="name" required>
-
       <textarea id="nachricht" name="nachricht" required></textarea>
-
       <button type="submit" name="submit"> Senden</button>
   </form> 
 
-  </div>
-
-  <footer>
-    <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS</div>
-  </footer>
 </body>
 
 </html>
