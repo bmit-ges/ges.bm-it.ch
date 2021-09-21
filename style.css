@@ -103,30 +103,59 @@ footer {
 
 }
 
-/*Intro*/
+/*Index*/
+.container{
+    display: flex;
+    justify-content: center;
+}
 
+.container2{
+    width: 100%;
+    height: vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0 auto;
+    position: absolute;
+}
 
 .kreis {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0 auto;
 
     width: 500px;
     height: 500px;
     background-color: #000000;
     border-radius: 50%;
-    filter: blur(2px);
-    box-shadow: inset 0px 0px 0px 10px #000000;
     justify-content: center;
     z-index: 2;
+}
+
+.kreis2 {
+
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+
+
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    border-radius: 50%;
+    filter: blur(5px);
+    box-shadow: inset 0px 0px 0px 10px #000000;
+    z-index: 2;
+   
 
 }
 
-
 .welcome {
-    position: absolute;
+    
     width: 500px;
     height: 500px;
-
     line-height: 500px;
-
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -134,18 +163,18 @@ footer {
     font-size: 3em;
     color: #f5f5f5;
     text-shadow: 10px 10px 10px #000000;
-    z-index: 3;
+    z-index: 5;
 }
 
 .welcome-animation-1 {
+    margin: 0 auto;
 
-    position: absolute;
     width: 550px;
     height: 550px;
-    order: 3;
-    justify-content: center;
     background-color: #ffffff31;
     filter: blur(5px);
+
+    z-index: 1;
     border-radius: 40%;
     animation-duration: 30s;
     animation-name: spin;
@@ -155,7 +184,9 @@ footer {
 }
 
 .welcome-animation-2 {
-    position: absolute;
+
+    margin: 0 auto;
+
     width: 550px;
     height: 550px;
     order: 3;
@@ -171,7 +202,8 @@ footer {
 }
 
 .welcome-animation-3 {
-    position: absolute;
+    
+    margin: 0 auto;
     width: 550px;
     height: 550px;
     order: 3;
@@ -187,7 +219,8 @@ footer {
 }
 
 .welcome-animation-4 {
-    position: absolute;
+    
+    margin: 0 auto;
     width: 550px;
     height: 550px;
     order: 3;
@@ -205,7 +238,8 @@ footer {
 }
 
 .welcome-animation-5 {
-    position: absolute;
+    
+    margin: 0 auto;
     width: 550px;
     height: 550px;
     order: 3;
@@ -223,7 +257,8 @@ footer {
 }
 
 .welcome-animation-6 {
-    position: absolute;
+    
+    margin: 0 auto;
     width: 550px;
     height: 550px;
     order: 3;
