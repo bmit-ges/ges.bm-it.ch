@@ -457,6 +457,73 @@ footer {
     top: 200px;
 }
 
+/*Passwort Zert*/
+
+.rectangle-pw {
+    margin-top: 150px;
+    margin-left: 3%;
+    margin-bottom: 149px;
+    height: 600px;
+    width: 85%;
+    background: #666666;
+    z-index: 1;
+    
+    box-shadow: 10px 10px 5px #cccccc;
+ 
+}
+
+
+
+form#zertfrom {
+    
+    background-color: #00000070;
+    width: 610px;
+    height: 500px;
+    margin: 0 auto;
+    margin-left: 25%;
+    z-index: 3;
+    border-radius: 15px;
+}
+
+
+input#username {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 24%;
+    width: 300px;
+    height: 50px;
+    z-index: 3;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+
+input#password {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 24%;
+    width: 300px;
+    height: 50px;
+    z-index: 3;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+
+
+button#login{
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    width: 150px;
+    height: 50px;
+}
+
+
+
 /*Einzelne Elemente für die Zertifikate*/
 
 #zert-titel1 {

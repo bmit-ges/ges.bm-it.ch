@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="de">
 
@@ -6,14 +9,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
-  <script  src = "javascript/script.js" defer> </script> <title>
-    Projekte
-  </title>
+  <script src="javascript/script.js" defer></script>
+  <title>Zertifikate</title>
 </head>
 
 <body style="background-color:#000000;">
 
-  
+
   <div class="main-rec">
       <header>
         <nav id = menu class="menu">
@@ -29,24 +31,42 @@
         
       </header>
       <div class= "line"></div>
-    
+ 
   </div>
 
-  <div id=rectangle-proj></div>
-  <img id="proj-img1" src="bilder/coming-soon.jpg" alt="coming-soon">
+  <?php
+ 
+  $username = "admin";
+  $password = "hi";
 
-  <div id=proj-titel1>
-    <p> Projekt </p>
+  if(isset($_POST['login'])){
+    if($_POST['username']=== $username && $_POST['password'] === $password){
+      ?>
+      <script type="text/javascript" language="Javascript"> 
+        alert("Loggedin");
+      </script> 
+     <?php 
+  
+    }
+
+  }else{
+    ?>
+        <script type="text/javascript" language="Javascript"> 
+          alert("Falsches Login");
+        </script> 
+    <?php 
+  }
+
+ ?>
+
+ <div class = "rectangle-pw">
+
+    <form name="einloggen" id = "zertfrom" action="zertifikate.php" method="post">
+        <input type="text" id="username" name="username" placeholder="Username" required />
+        <input type="password" id="password" name="password" placeholder = "Password" required>
+        <button type="submit" id="login" value="login"> Login</button>
+    </form> 
   </div>
-
-  <div id=proj-p1>
-    <p>Coming soon</p>
-  </div>
-  <div id=proj-line></div>
-
-
-  <img id="proj-arrow-right" src="bilder/arrow_right.png" alt="proj_arrow_right">
-  <img id="proj-arrow-left" src="bilder/arrow_left.png" alt="proj_arrow_left"></div>
 
   <footer>
     <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS, PHP</div>
