@@ -26,7 +26,7 @@
             <li><a href="zertifikate.php">Zertifikate</a></li>
             <li><a href="lebenslauf.html">Lebenslauf</a></li>
             <li><a href="kontakt.php">Kontakt</a></li>
-          </ul>
+          </ul> 
         </nav>
         
       </header>
