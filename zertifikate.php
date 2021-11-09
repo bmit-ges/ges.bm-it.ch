@@ -57,7 +57,7 @@
     };
 
     if(isset($login) and $login == true){
-      header("Location: zertifikate_login.php");
+      header("Location: ges.bm-it.ch/zertifikate_login.php");
     } else {
       $login = false;
     };
