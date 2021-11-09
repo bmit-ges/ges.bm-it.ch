@@ -12,6 +12,9 @@
 
 <body style="background-color:#000000;">
 
+  <script type="text/javascript" language="Javascript"> 
+    alert("Erfolgreich angemeldet");
+  </script> 
 
   <div class="main-rec">
       <header>
@@ -25,7 +28,7 @@
             <li><a href="kontakt.php">Kontakt</a></li>
           </ul>
         </nav>
-         
+        
       </header>
       <div class= "line"></div>
  
@@ -143,7 +146,23 @@
     <img id="zert-arrow-left" src="bilder/arrow_left.png" alt="zert_arrow_left">
   
   </div>
+
+  <button type="submit" id="logout_button" name="logout"> Logout</button>
   
+
+  <?php
+
+    global $login;
+
+    session_start();
+    
+    if($login = true){
+      $login= false;
+      session_destroy($login);
+    }
+  ?>
+  
+
   <footer>
     <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS, PHP</div>
   </footer>
