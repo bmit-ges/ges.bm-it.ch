@@ -57,7 +57,9 @@
     };
 
     if(isset($login) and $login == true){
-      header("Location: /zertifikate_login.php");
+      header("HTTP/1.1 301 Moved Permanently");
+      header("Location: http://ges.bm-it.ch/zertifikate_login.php");
+      header("Connection: close");
     } else {
       $login = false;
     };
