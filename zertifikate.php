@@ -1,3 +1,30 @@
+<?php
+   session_start();
+    global $login;
+    
+    $login = $_SESSION["logedin"];
+
+   
+    if($_POST["username"] AND $_POST["password"] and $_POST["username"] != "" AND $_POST["password"] != ""){
+      if($_POST["username"] == "admin" and $_POST["password"]== 1234){
+        $_SESSION["username"] = $_POST["username"];
+        $login = true;
+      } else {
+        echo  '<script type="text/javascript" language="Javascript"> alert("Anmeldung fehlgeschlagen!") </script>' ;
+        $login = false;
+      };
+    };
+
+    if(isset($login) and $login == true){
+      header("HTTP/1.1 301 Moved Permanently");
+      header("Location: http://ges.bm-it.ch/zertifikate_login.php");
+      header("Connection: close");
+    } else {
+      $login = false;
+    };
+    
+  ?>
+
 <!DOCTYPE html>
 <html lang="de">
 
@@ -39,32 +66,7 @@
     <button type="submit" id="login_button" name="submit"> Login</button>
   </form>
   
-  <?php
-   session_start();
-    global $login;
-    
-    $login = $_SESSION["logedin"];
-
-   
-    if($_POST["username"] AND $_POST["password"] and $_POST["username"] != "" AND $_POST["password"] != ""){
-      if($_POST["username"] == "admin" and $_POST["password"]== 1234){
-        $_SESSION["username"] = $_POST["username"];
-        $login = true;
-      } else {
-        echo  '<script type="text/javascript" language="Javascript"> alert("Anmeldung fehlgeschlagen!") </script>' ;
-        $login = false;
-      };
-    };
-
-    if(isset($login) and $login == true){
-      header("HTTP/1.1 301 Moved Permanently");
-      header("Location: http://ges.bm-it.ch/zertifikate_login.php");
-      header("Connection: close");
-    } else {
-      $login = false;
-    };
-    
-  ?>
+  
 
   <footer>
     <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS, PHP</div>
