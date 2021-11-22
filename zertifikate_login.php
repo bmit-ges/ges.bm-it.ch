@@ -47,8 +47,6 @@
       
         </div>
 
-        
-
         <div class ="rectangle-zert"></div>
         <div class ="slideshow-container">
           <!-- Navigation -->
