@@ -3,16 +3,18 @@
     global $login;
     
     $login = $_SESSION["logedin"];
+    $username = $_POST["username"];
+    $password = $_POST["password"];
     $hash = password_hash("Test", PASSWORD_DEFAULT);
    
-    if($_POST["username"] and $_POST["password"] and $_POST["username"] != "" AND $_POST["password"] != ""){
-      if($_POST["username"] == "admin" and $_POST["password"] == password_verify("Test",$hash)){
+    if($username != "" and $password != ""){
+      if($username == "admin" and password_verify($password,$hash)){
           $login = true;
       } else {
         echo  '<script type="text/javascript" language="Javascript"> alert("Anmeldung fehlgeschlagen!") </script>' ;
         $login = false;
-      };
-    };
+      }
+    }
 
     if(isset($login) and $login == true){
       header("HTTP/1.1 301 Moved Permanently");
@@ -20,7 +22,7 @@
       header("Connection: close");
     } else {
       $login = false;
-    };
+    }
     
   ?>
 
