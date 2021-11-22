@@ -24,11 +24,11 @@
       
       <body style="background-color:#000000;">
       
-      <!--
+      
         <script type="text/javascript" language="Javascript"> 
           alert("Erfolgreich angemeldet");
         </script> 
-    -->
+        
         <div class="main-rec">
             <header>
               <nav id = menu class="menu">

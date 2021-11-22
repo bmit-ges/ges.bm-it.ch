@@ -3,12 +3,11 @@
     global $login;
     
     $login = $_SESSION["logedin"];
-
+    $hash = password_hash("Test", PASSWORD_DEFAULT);
    
-    if($_POST["username"] AND $_POST["password"] and $_POST["username"] != "" AND $_POST["password"] != ""){
-      if($_POST["username"] == "admin" and $_POST["password"]== 1234){
-        $_SESSION["username"] = $_POST["username"];
-        $login = true;
+    if($_POST["username"] and $_POST["password"] and $_POST["username"] != "" AND $_POST["password"] != ""){
+      if($_POST["username"] == "admin" and $_POST["password"] == password_verify("Test",$hash)){
+          $login = true;
       } else {
         echo  '<script type="text/javascript" language="Javascript"> alert("Anmeldung fehlgeschlagen!") </script>' ;
         $login = false;
@@ -17,7 +16,7 @@
 
     if(isset($login) and $login == true){
       header("HTTP/1.1 301 Moved Permanently");
-      header("Location: http://ges.bm-it.ch/zertifikate_login.php");
+      header("Location: zertifikate_login.php");
       header("Connection: close");
     } else {
       $login = false;
@@ -35,6 +34,7 @@
   <link rel="stylesheet" href="style.css" />
   <script src="javascript/script.js" defer></script>
   <title>Zertifikate</title>
+
 </head>
 
 <body style="background-color:#000000;">
