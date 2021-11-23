@@ -5,7 +5,7 @@
     $login = $_SESSION["logedin"];
     $username = $_POST["username"];
     $password = $_POST["password"];
-    $hash = password_hash("Test", PASSWORD_DEFAULT);
+    $hash = password_hash("PassHold8080*", PASSWORD_DEFAULT);
    
     if($username != "" and $password != ""){
       if($username == "admin" and password_verify($password,$hash)){
@@ -68,6 +68,8 @@
     <button type="submit" id="login_button" name="submit"> Login</button>
   </form>
   
+
+ 
   
 
   <footer>
