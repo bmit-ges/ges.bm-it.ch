@@ -8,7 +8,7 @@
     $hash = "cdd0fb79076debb8f8e58ac647c1b6120ae3d0c7adead364b23feddcc5e0f1f14e574b2eca0669ee013b999886499b09661d9f36048be125858afa170d41f085";
    
     if($username != "" and $password != ""){
-      if($username == "admin" and password_verify($password,$hash)){
+      if($username == "admin" and $password == $hash){
           $login = true;
       } else {
         echo  '<script type="text/javascript" language="Javascript"> alert("Anmeldung fehlgeschlagen!") </script>' ;
