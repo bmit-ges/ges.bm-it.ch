@@ -29,24 +29,3 @@ function showSlides(n){
 
     slides[slideIndex-1].style.display = "block";
 }
-
-/*home*/
-
-
-function hideRect(){
-
-    
-    setTimeout(function(){
-        var x = document.getElementsByClassName("home-rect1");
-        var y = document.getElementsByClassName("home-rect2");
-
-        for (var i=0; i<x.length; i+=1){
-            x[i].style.display = "none"
-        }
-
-        for (var j=0; j<y.length; j+=1){
-            y[j].style.display = "none"
-        }
-    },3400);
-
-}

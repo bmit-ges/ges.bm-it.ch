@@ -289,39 +289,6 @@ footer {
     height: 50%;
     box-shadow: 0px 0px 20px 10px #666666;
 }
-.home-rect1 {
-
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 90%;
-    top: 0;
-    background-color: #000000;
-    z-index: 10;
-    animation-duration: 3.5s;
-    animation-name: introright;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-delay: 500ms;
-    
-}
-
-.home-rect2 {
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 90%;
-    top: 0;
-    background-color: #000000;
-    z-index: 10;
-    animation-duration: 3s;
-    animation-name: introleft;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-delay: 500ms;
-    
-}
-
 
 /*Steckbrief*/
 
