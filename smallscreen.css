@@ -1,0 +1,531 @@
+body{
+    margin:0px;
+    background-color: black;
+
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes revers-spin{
+    from{
+        transform:rotate(360deg)
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+@media (min-width: 325px) and (max-width: 449px){
+    /*Navigation*/
+
+    nav{
+        display: grid;
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        align-items: center;
+        text-align: center;
+        background: rgb(61, 61, 61);
+        margin-top: 0px;
+ 
+       
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+        color: #f5f5f5;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+
+    .about_me{
+        grid-row: 1;
+    }
+
+    .lebenslauf{
+        grid-row: 2;
+    }
+    .zertifikate{
+        grid-row: 3;
+    }
+    .kontakt{
+        grid-row: 4;
+    }
+
+      /*Welcome Animation*/
+
+      .gridWelcome{
+
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        grid-auto-rows: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .kreis {
+
+        transform: translate(0, -50%);
+      
+    
+        width: 250px;
+        height: 250px;
+        background-color: #000000;
+        border-radius: 50%;
+        
+        margin: 0 auto;
+        margin-top: 250px;
+        line-height: 250px;
+    
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-size: 2em;
+        color: #f5f5f5;
+        
+        z-index: 5;
+        grid-column: 2;
+        grid-row: 1;
+
+    }
+    
+
+    
+    .welcome-animation-1 {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+
+        background-color: #ffffff31;
+        filter: blur(5px);
+  
+        border-radius: 40%;
+        animation-duration: 30s;
+        animation-name: spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        grid-column: 2;
+        grid-row: 1;
+    
+    }
+    
+    .welcome-animation-2 {
+    
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+
+        justify-content: center;
+        background-color: #ffffff31;
+
+        filter: blur(5px);
+        border-radius: 40%;
+        animation-duration: 30s;
+        animation-name: revers-spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .welcome-animation-3 {
+        
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+
+        justify-content: center;
+        background-color: #ffffff2a;
+  
+        filter: blur(5px);
+        border-radius: 40%;
+        animation-duration: 25s;
+        animation-name: spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .welcome-animation-4 {
+        
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+   
+        justify-content: center;
+        background-color: #ffffff2a;
+      
+        filter: blur(5px);
+        border-radius: 40%;
+        animation-duration: 25s;
+        animation-name: revers-spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        transform: rotate(90deg);
+
+        grid-column: 2;
+        grid-row: 1;
+    
+    }
+    
+    .welcome-animation-5 {
+        
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+
+        justify-content: center;
+        background-color: #ffffff2a;
+
+        filter: blur(5px);
+        border-radius: 40%;
+        animation-duration: 15s;
+        animation-name: spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        transform: rotate(90deg);
+
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .welcome-animation-6 {
+        
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+
+        justify-content: center;
+        background-color: #ffffff2a;
+
+        filter: blur(5px);
+        border-radius: 40%;
+        animation-duration: 15s;
+        animation-name: revers-spin;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        transform: rotate(90deg);
+
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+
+    /* About Me*/
+
+    .pictureMe{
+        grid-row:1;
+        grid-column: 1 / span 2;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+    }
+
+    .gridAboutMe{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,auto);
+        font-family: 'Courier New', Courier, monospace;
+        word-wrap: break-all;
+        font-size: 0.8em;
+        color: #f5f5f5;
+        line-height: 35px;
+
+        text-align: center;
+
+        background-color: #666666;
+    }
+
+    .textposition{
+        grid-row:2;
+        grid-column: 1 / span 2;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /*Lebenslauf*/
+
+    #year-p {
+     
+        margin-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        word-wrap: break-all;
+        font-family: 'Courier New', Courier, monospace;
+        color: #f5f5f5;
+        font-size: 0.8em;
+        
+    }
+    
+    #year {
+    
+        margin-top: auto;
+        position: absolute;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-size: 1.5em;
+        color: #f5f5f5;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40%;
+        text-align: center;
+    }
+    
+    .flip-card-front {
+        background-color: #666666;
+        box-shadow: 10px 10px 5px #cccccc;
+    
+    }
+    
+    .flip-card-back {
+        background-color: #666666;
+        box-shadow: 10px 10px 5px #cccccc;
+        transform: rotateY(180deg);
+    
+    }
+    
+    
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+    }
+    
+    
+    
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    
+    }
+    
+    
+    
+    .flip-card-1 {
+      
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        width: 80vw;
+        height: 100vh;
+        perspective: 1000px;
+
+    
+    }
+
+    .flip-card-2 {
+        
+        margin-top: 50px ;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        width: 80vw;
+        height: 100vh;
+        perspective: 1000px;
+    
+    }
+    
+    .flip-card-1:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-2:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    /*kontakt*/
+
+    .gridKontakt{
+        display: grid;
+        grid-template-columns: 25px auto  25px;
+        
+        }
+
+
+    #rectangle {
+        grid-template-columns: 25px auto  25px;
+        height: 60vh;
+        width: auto;
+        background: linear-gradient(180deg, #666666 0%, #353535 40%, #d30c0c00 80%);
+        z-index: 1;
+        grid-row: 1;
+        grid-column: 2;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+
+    }
+    
+    .formkont {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+        background-color: #00000070;
+        height: 50vh;
+        width: auto;
+        margin: 90px 25px 0px 25px;
+        border-radius: 15px;
+        z-index: 2;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+
+    input#email {
+        
+        height: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 25px auto 15px auto;
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+
+
+    input#name {
+        
+        height: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 15px auto 15px auto;
+        
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+
+    textarea#nachricht {
+        
+        height: 200px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 15px 0px 15px 0px;
+        grid-column: 2;
+        grid-row: 3;
+    
+    }
+
+    button#submit{
+        height: 30px;
+        background-color: white;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 15px auto 15px auto;
+        grid-column: 2;
+        grid-row: 4;
+
+        
+    }
+
+    /*Login*/
+
+    .gridLogin{
+        display: grid;
+        grid-template-columns: 25px auto  25px;
+        
+        }
+
+
+    #rectangleLogin {
+
+        grid-template-columns: 25px auto  25px;
+        height: 60vh;
+        width: auto;
+        background: linear-gradient(180deg, #00000000 20%, #353535 60%, #666666 100%);;
+        z-index: 1;
+        grid-row: 1;
+        grid-column: 2;
+        margin-top: 50px;
+
+    }
+
+    
+    form#pw {
+
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto auto;
+        background-color: #00000070;
+        height: 50vh;
+        width: auto;
+        margin: 90px 25px 0px 25px;
+        border-radius: 15px;
+        z-index: 2;
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+    
+    input#username {
+        height: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 50px auto 15px auto;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    
+    input#password {
+        height: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 50px auto 15px auto;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    button#login_button{
+        height: 30px;
+        background-color: white;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 50px auto 15px auto;
+        grid-column: 2;
+        grid-row: 3;
+    
+    }
+
+    .pzert{
+        font-size: 0.8em;
+        color: #f5f5f5;
+        font-family: 'Courier New', Courier, monospace;
+        grid-column: 2;
+        grid-row: 4;
+        padding-left:25px ;
+        padding-right: 25px;
+        margin: 25px auto 0px auto;
+        text-align: center;
+    }
+}

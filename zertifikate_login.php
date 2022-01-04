@@ -6,7 +6,7 @@
 
   if($login = false){
       header("HTTP/1.1 301 Moved Permanently");
-      header("Location: zertifikate.php");
+      header("Location: index.php");
       header("Connection: close");
     } else{
       ?>
@@ -17,7 +17,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="slideshow.css">
         <script src="javascript/script.js" defer></script>
         <title>Zertifikate</title>
       </head>
@@ -28,24 +28,6 @@
         <script type="text/javascript" language="Javascript"> 
           alert("Erfolgreich angemeldet");
         </script> 
-        
-        <div class="main-rec">
-            <header>
-              <nav id = menu class="menu">
-                <ul>
-                  <li><a href="home.html">Home</a></li>
-                  <li><a href="about_me.html">About Me</a></li>
-                  <li><a href="projekte.html">Projekte</a></li>
-                  <li><a href="zertifikate.php">Zertifikate</a></li>
-                  <li><a href="lebenslauf.html">Lebenslauf</a></li>
-                  <li><a href="kontakt.php">Kontakt</a></li>
-                </ul>
-              </nav>
-              
-            </header>
-            <div class= "line"></div>
-      
-        </div>
 
         <div class ="rectangle-zert"></div>
         <div class ="slideshow-container">
@@ -162,10 +144,7 @@
           </div>
 
         </div>
-        
-        <footer>
-          <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS, PHP</div>
-        </footer>
+
       </body>
       
       </html>
