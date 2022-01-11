@@ -1,69 +1,48 @@
-body{
-    margin:0px;
-    background-color: black;
 
-}
-a:link,
-a:visited {
-    text-decoration: none;
-    color: inherit;
-}
-
-@keyframes spin{
-    from{
-        transform:rotate(0deg)
-    }
-    to{
-        transform:rotate(360deg);
-    }
-}
-
-@keyframes revers-spin{
-    from{
-        transform:rotate(360deg)
-    }
-    to{
-        transform:rotate(0deg);
-    }
-}
 
 @media (min-width: 325px) and (max-width: 449px){
     /*Navigation*/
 
+    
     nav{
-        display: grid;
-        grid-template-columns: auto;
-        grid-auto-rows: auto;
-        align-items: center;
-        text-align: center;
+        position: fixed;
+        width: 100vw;
         background: rgb(61, 61, 61);
         margin-top: 0px;
- 
-       
+        
         padding-top: 30px;
         padding-bottom: 30px;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 1.5em;
-        color: #f5f5f5;
+        font-size: 1.2em;
+        
         font-weight: bold;
+        z-index: 6;
+    }
+
+
+    .up{
+        position: fixed;
+        width: 100px;
+        height: 30px;
+        bottom: 0px;
+        right: 0px;
+        background: rgb(61, 61, 61) !important;  
         text-align: center;
-        justify-content: center;
-
-
+        font-weight: bold;
+        z-index: 6;
+        
     }
 
-    .about_me{
-        grid-row: 1;
-    }
+    .uptxt{
 
-    .lebenslauf{
-        grid-row: 2;
-    }
-    .zertifikate{
-        grid-row: 3;
-    }
-    .kontakt{
-        grid-row: 4;
+        font-family: 'Courier New', Courier, monospace;
+        color: #f5f5f5 !important;
+        letter-spacing: 0.15em;
+        font-size: 0.8em;
+        font-weight: bold;
+        z-index: 6;
+        margin-top: 4px;
+        
     }
 
       /*Welcome Animation*/
@@ -527,5 +506,26 @@ a:visited {
         padding-right: 25px;
         margin: 25px auto 0px auto;
         text-align: center;
+    }
+
+    /*footer*/
+
+    footer {
+        float: left;
+        width: 100vw;
+        margin-top: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8em;
+        color: white;
+        Text-align: center;
+        height: 50px;
+        background-color: #66666650;
+
+    }
+    
+    .footer-text{
+        margin-top: 23px;
+     
+    
     }
 }

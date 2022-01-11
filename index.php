@@ -1,11 +1,11 @@
 <?php
-  /* session_start();
+   session_start();
     global $login;
     
     $login = $_SESSION["logedin"];
-    $username = $_POST["username"];
-    $password = hash("sha512", $_POST["password"]);
-    $hash = "cdd0fb79076debb8f8e58ac647c1b6120ae3d0c7adead364b23feddcc5e0f1f14e574b2eca0669ee013b999886499b09661d9f36048be125858afa170d41f085";
+    $usernameLogin = $_POST["username"];
+    $passwordLogin = hash("sha512", $_POST["password"]);
+    $hash = "D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB";
    
     if($username != "" and $password != ""){
       if($username == "admin" and $password == $hash){
@@ -22,7 +22,7 @@
       header("Connection: close");
     } else {
       $login = false;
-    }*/
+    }
     
   ?>
 
@@ -35,28 +35,25 @@
     <link rel="stylesheet" href="largescreen.css">
     <link rel="stylesheet" href="mediumscreen.css">
     <link rel="stylesheet" href="smallscreen.css">
+    <link rel="stylesheet" href="style.css">
     <script src="javascript/script2.js" defer></script>
     <title>Document</title>
 </head>
 
 <body>
-    <nav>
-        <div class="about_me">
-            <a href="about_me.html">About Me</a>
-        </div>
-        <div class="lebenslauf">
-            <a href="lebenslauf.html">Lebenslauf</a>
-        </div>
-        <div class="zertifikate">
-            <a href="zertifikate.php">Zertifikate</a>
-        </div>
-        <div class="kontakt">
-            <a href="kontakt.php">Kontakt</a>
-        </div>
+    <nav> 
+        <ul>
+            <li><a href = "#jumpAboutMe">About Me</a></li>
+            <li><a href = "#jumpLebensauf">Lebenslauf</a></li>
+            <li><a href = "#jumpZertifikat">Zertifikate </a></li>
+            <li><a href = "#jumpKontakt">Kontakt</a> </li>
+        </ul>   
+        
+        <div class ="up" > <a href = "#jumpWelcome" > <div class = "uptxt">Up</div> </a></div>
     </nav>
     
     <content>
-        <div class="gridWelcome">
+        <div class="gridWelcome" id = "jumpWelcome">
             <div class="kreis">Welcome</div>
         
             <div class = "welcome-animation-1"></div>
@@ -67,7 +64,7 @@
             <div class = "welcome-animation-6"></div>
         </div>
 
-        <div class="gridAboutMe">
+        <div class="gridAboutMe" id = "jumpAboutMe" >
           <img class = "pictureMe" src="bilder/testpic.png" alt="profilbild">
            
             <div class = "textposition">
@@ -75,7 +72,6 @@
                     <b>Name: Sibylle Gehring | Nationalität: Schweizerin | Geburtsdatum: 18.12.1997 | Wohnort: Zürich</b>
                     <br>
                     <hr>
-                    <br>
                     <br>
                     Geboren und aufgewachsen bin ich in der Stadt Zürich, gemeinsam mit meinen
                     Eltern und meinem älteren Bruder. Schon früh habe ich Interesse an Technologie gezeigt.
@@ -93,6 +89,7 @@
            
         </div>
 
+        <h3 id = "jumpLebensauf"></h3>
         <div class="flip-card-1">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -183,35 +180,34 @@
 
        
 
-        <div class = "gridLogin">
+        <div class = "gridLogin" id = "jumpZertifikat">
             <div id = "rectangleLogin"></div>
 
             <form name="login" id="pw" action="zertifikate.php" method="post">
                 
                 <input type = "text" id ="username" name="username" placeholder="Username" require>
                 <input type = "password" id ="password" name="password" placeholder="Password" require>
-                <button type="submit" id="login_button" name="submit">Login</button>
+                <button type="submit" id="login_button" name="submit"> Login</button>
                 <lable type = "text" class = "pzert" name = "hinweis">Bitte einloggen um Einsicht in die Zertifikate zu erhalten.</lable>
             </form>
 
         </div>
 
-        
-        <?php
-            if(isset($_POST["submit"])){
-            mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
-            ?>
-            <script type="text/javascript" language="Javascript"> 
-                alert("Erfolgreich gesendet")
-            </script> 
-            <?php 
-            }
-        ?>
-
-        <div class = "gridKontakt">
+        <div class = "gridKontakt" id = "jumpKontakt">
         
             <div id = "rectangle"></div>
-            
+
+            <?php
+            if(isset($_POST["submit"])){
+                mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
+                ?>
+                <script type="text/javascript" language="Javascript"> 
+                    alert("Erfolgreich gesendet")
+                </script> 
+            <?php 
+            }
+            ?>
+
             <form name="kontaktformular" class = "formkont" action="kontakt.php" method="post">
                 <input type="email" id="email" name="email" placeholder="E-Mail" required />
                 <input type="text" id="name" name="name" placeholder = "Name" required>
@@ -221,9 +217,11 @@
             
         </div>
 
-       
-       
     </content>
+ 
+    <footer>
+        <div class = "footer-text">Erstellt von Sibylle Gehring | HTML, CSS, JS, PHP</div>
+    </footer>
 
 </body>
 
