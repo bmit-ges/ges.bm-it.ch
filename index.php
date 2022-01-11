@@ -1,11 +1,11 @@
 <?php
-   session_start();
+  /* session_start();
     global $login;
     
     $login = $_SESSION["logedin"];
-    $usernameLogin = $_POST["username"];
-    $passwordLogin = hash("sha512", $_POST["password"]);
-    $hash = "D404559F602EAB6FD602AC7680DACBFAADD13630335E951F097AF3900E9DE176B6DB28512F2E000B9D04FBA5133E8B1C6E8DF59DB3A8AB9D60BE4B97CC9E81DB";
+    $username = $_POST["username"];
+    $password = hash("sha512", $_POST["password"]);
+    $hash = "cdd0fb79076debb8f8e58ac647c1b6120ae3d0c7adead364b23feddcc5e0f1f14e574b2eca0669ee013b999886499b09661d9f36048be125858afa170d41f085";
    
     if($username != "" and $password != ""){
       if($username == "admin" and $password == $hash){
@@ -22,7 +22,7 @@
       header("Connection: close");
     } else {
       $login = false;
-    }
+    }*/
     
   ?>
 
@@ -187,27 +187,28 @@
                 
                 <input type = "text" id ="username" name="username" placeholder="Username" require>
                 <input type = "password" id ="password" name="password" placeholder="Password" require>
-                <button type="submit" id="login_button" name="submit"> Login</button>
+                <button type="submit" id="login_button" name="submit">Login</button>
                 <lable type = "text" class = "pzert" name = "hinweis">Bitte einloggen um Einsicht in die Zertifikate zu erhalten.</lable>
             </form>
 
         </div>
 
+        
+        <?php
+            if(isset($_POST["submit"])){
+            mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
+            ?>
+            <script type="text/javascript" language="Javascript"> 
+                alert("Erfolgreich gesendet")
+            </script> 
+            <?php 
+            }
+        ?>
+
         <div class = "gridKontakt" id = "jumpKontakt">
         
             <div id = "rectangle"></div>
-
-            <?php
-            if(isset($_POST["submit"])){
-                mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
-                ?>
-                <script type="text/javascript" language="Javascript"> 
-                    alert("Erfolgreich gesendet")
-                </script> 
-            <?php 
-            }
-            ?>
-
+            
             <form name="kontaktformular" class = "formkont" action="kontakt.php" method="post">
                 <input type="email" id="email" name="email" placeholder="E-Mail" required />
                 <input type="text" id="name" name="name" placeholder = "Name" required>
