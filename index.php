@@ -3,12 +3,9 @@
     session_start();
     global $login;
     
-   /* $login = $_SESSION["logedin"];*/
+    $login = $_SESSION["logedin"];
 
     $hash = "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db";
-
-    
-    
     
     if(isset($_POST['submit']) && $_POST['username'] != "" && $_POST['password'] != ''){
 
@@ -35,6 +32,17 @@
     } 
 ?>
 
+        
+<?php
+    if(isset($_POST["submitK"])){
+    mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
+    ?>
+    <script type="text/javascript" language="Javascript"> 
+        alert("Erfolgreich gesendet")
+    </script> 
+    <?php 
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="de">
@@ -202,18 +210,6 @@
             </form>
 
         </div>
-
-        
-        <?php
-            if(isset($_POST["submitK"])){
-            mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
-            ?>
-            <script type="text/javascript" language="Javascript"> 
-                alert("Erfolgreich gesendet")
-            </script> 
-            <?php 
-            }
-        ?>
 
         <div class = "gridKontakt" id = "jumpKontakt">
         
