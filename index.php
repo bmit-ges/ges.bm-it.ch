@@ -17,13 +17,7 @@
             } else { echo'<script  type="text/javascript" language="javascript"> alert("Anmeldung fehlgeschlagen!")</script>';
                 $login = false;
             }
-        }
-        if(isset($login) and $login == true){
-            header("Location: zertifikate_login.php");
-          } else {
-            $login = false;
-        }
-        
+        }        
     } 
 ?>
 
