@@ -1,33 +1,43 @@
-<?php
-  /* session_start();
+
+<?php 
+    session_start();
     global $login;
     
-    $login = $_SESSION["logedin"];
-    $username = $_POST["username"];
-    $password = hash("sha512", $_POST["password"]);
-    $hash = "cdd0fb79076debb8f8e58ac647c1b6120ae3d0c7adead364b23feddcc5e0f1f14e574b2eca0669ee013b999886499b09661d9f36048be125858afa170d41f085";
-   
-    if($username != "" and $password != ""){
-      if($username == "admin" and $password == $hash){
-          $login = true;
-      } else {
-        echo  '<script type="text/javascript" language="Javascript"> alert("Anmeldung fehlgeschlagen!") </script>' ;
-        $login = false;
-      }
-    }
+   /* $login = $_SESSION["logedin"];*/
 
-    if(isset($login) and $login == true){
-      header("HTTP/1.1 301 Moved Permanently");
-      header("Location: zertifikate_login.php");
-      header("Connection: close");
-    } else {
-      $login = false;
-    }*/
+    $hash = "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db";
+
     
-  ?>
+    
+    
+    if(isset($_POST['submit']) && $_POST['username'] != "" && $_POST['password'] != ''){
+
+        if(array_key_exists("password", $_POST) && array_key_exists("username",$_POST)){
+            $usernameCkeck = "Admin";
+            $passwordCheck = hash('sha512', $_POST["password"]);
+            if ($usernameCkeck == $_POST["username"] && $passwordCheck == $hash){
+                echo'<script type="text/javascript" language="javascript" > alert("Anmeldung erfolgreich!")</script>';
+                $login = true;
+    
+            
+            } else { echo'<script  type="text/javascript" language="javascript"> alert("Anmeldung fehlgeschlagen!")</script>';
+                $login = false;
+            }
+        }
+        if(isset($login) and $login == true){
+            header("HTTP/1.1 301 Moved Permanently");
+            header("Location: zertifikate_login.php");
+            header("Connection: close");
+          } else {
+            $login = false;
+        }
+        
+    } 
+?>
+
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,6 +49,7 @@
     <script src="javascript/script2.js" defer></script>
     <title>Document</title>
 </head>
+
 
 <body>
     <nav> 
@@ -178,12 +189,11 @@
             </div>
         </div> 
 
-       
 
         <div class = "gridLogin" id = "jumpZertifikat">
             <div id = "rectangleLogin"></div>
 
-            <form name="login" id="pw" action="zertifikate.php" method="post">
+            <form name="login" id="pw" method="post">
                 
                 <input type = "text" id ="username" name="username" placeholder="Username" require>
                 <input type = "password" id ="password" name="password" placeholder="Password" require>
@@ -195,7 +205,7 @@
 
         
         <?php
-            if(isset($_POST["submit"])){
+            if(isset($_POST["submitK"])){
             mail("sibylle.gehring@hotmail.com", "kontaktformular",' Name: '.$_POST["name"]. ' Email: '.$_POST["email"].' Nachricht: '.$_POST["nachricht"]);
             ?>
             <script type="text/javascript" language="Javascript"> 
@@ -209,11 +219,11 @@
         
             <div id = "rectangle"></div>
             
-            <form name="kontaktformular" class = "formkont" action="kontakt.php" method="post">
+            <form name="kontaktformular" class = "formkont" method="post">
                 <input type="email" id="email" name="email" placeholder="E-Mail" required />
                 <input type="text" id="name" name="name" placeholder = "Name" required>
                 <textarea id="nachricht" name="nachricht" placeholder = "Nachricht" required></textarea>
-                <button type="submit" id="submit" name="submit"> Senden</button>
+                <button type="submit" id="submit" name="submitK"> Senden</button>
             </form> 
             
         </div>
