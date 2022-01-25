@@ -1,4 +1,3 @@
-
 <?php 
     session_start();
     global $login;
@@ -14,17 +13,13 @@
             $passwordCheck = hash('sha512', $_POST["password"]);
             if ($usernameCkeck == $_POST["username"] && $passwordCheck == $hash){
                 echo'<script type="text/javascript" language="javascript" > alert("Anmeldung erfolgreich!")</script>';
-                $login = true;
-    
-            
+                $login = true;        
             } else { echo'<script  type="text/javascript" language="javascript"> alert("Anmeldung fehlgeschlagen!")</script>';
                 $login = false;
             }
         }
         if(isset($login) and $login == true){
-            header("HTTP/1.1 301 Moved Permanently");
             header("Location: zertifikate_login.php");
-            header("Connection: close");
           } else {
             $login = false;
         }
