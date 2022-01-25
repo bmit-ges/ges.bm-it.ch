@@ -1,8 +1,6 @@
 <?php 
     session_start();
     global $login;
-    
-    $login = $_SESSION["logedin"];
 
     $hash = "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db";
     
@@ -12,12 +10,18 @@
             $usernameCkeck = "Admin";
             $passwordCheck = hash('sha512', $_POST["password"]);
             if ($usernameCkeck == $_POST["username"] && $passwordCheck == $hash){
-                echo'<script type="text/javascript" language="javascript" > alert("Anmeldung erfolgreich!")</script>';
-                $login = true;        
+                $login = true; 
             } else { echo'<script  type="text/javascript" language="javascript"> alert("Anmeldung fehlgeschlagen!")</script>';
+
                 $login = false;
             }
         }        
+    } 
+
+    if($login == true){
+        header("HTTP/1.1 301 Moved Permanently");
+        header("Location: zertifikate_login.php");
+        header("Connection: close");
     } 
 ?>
 
