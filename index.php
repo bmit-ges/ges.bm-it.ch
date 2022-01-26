@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="smallscreen.css">
     <link rel="stylesheet" href="style.css">
     <script src="javascript/script2.js" defer></script>
-    <title>Document</title>
+    <title>ges.bm-it.ch</title>
 </head>
 
 
