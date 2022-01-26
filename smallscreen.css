@@ -9,7 +9,7 @@
         width: 100vw;
         background: rgb(61, 61, 61);
         margin-top: 0px;
-        
+    
         padding-top: 30px;
         padding-bottom: 30px;
         font-family: 'Courier New', Courier, monospace;
@@ -54,6 +54,7 @@
         grid-auto-rows: auto;
         align-items: center;
         text-align: center;
+        padding-top: 150px;
     }
     
     .kreis {
