@@ -22,15 +22,15 @@
 
     .up{
         position: fixed;
-        width: 100px;
-        height: 30px;
+        width: 35px;
+        height: 25px;
         bottom: 0px;
         right: 0px;
         background: rgb(61, 61, 61) !important;  
         text-align: center;
         font-weight: bold;
         z-index: 6;
-        
+        margin-bottom: 25px;
     }
 
     .uptxt{
