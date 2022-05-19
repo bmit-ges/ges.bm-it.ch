@@ -2,7 +2,7 @@
     session_start();
     global $login;
 
-    $hash = "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db";
+    $hash = "ad3c25da8fdf8c03836df78225df357eb2a43a578ad8bb61733deb5005e6a758849ee29a12a5f5f66d6d2675d144b80d2fdc74d436b8fd64f3eec79b5285a966";
     
     if(isset($_POST['submit']) && $_POST['username'] != "" && $_POST['password'] != ''){
 
