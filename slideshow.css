@@ -1,0 +1,399 @@
+body{
+    margin: 0px;
+
+}
+
+
+
+@media (min-width: 1250px){
+    .navZert{
+        display: grid;
+        width: 100vw;
+        background: rgb(61, 61, 61);
+        top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        z-index: 6;
+
+        grid-template-columns: auto auto 100px 50px;
+    }
+
+    button#logout_button{
+        height: 30px;
+        background-color: white;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100px;
+    }
+
+    form{
+        height: 30px;
+        grid-column: 3;
+        width: auto;
+    }
+
+    .gridcontainer{
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: auto;
+        grid-template-columns: 50px auto 50px;
+    
+    
+    }
+
+    .rectangle-zert{
+        
+        background-color: #666666;
+        height: 700px;
+        margin-bottom: 80px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .zergrid{
+        display:grid;
+        grid-template-columns: 50px auto auto auto auto 50px;
+    }
+    
+    #zertifikat {
+        
+        height: 700px;
+        width: 600px;
+        grid-column: 3;
+        
+    }
+    
+    
+    #zert-titel {
+
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-size: 1.5em;
+        color: rgb(245, 245, 245);
+        text-align: center;
+        grid-column: 4;
+        grid-row: 1;
+
+    }
+    
+    #zert-p {
+        float: right;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 1em;
+        color: rgb(245, 245, 245);
+        margin-top: 75px;
+        margin-left: 25px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .mySlides {
+        display: none;
+        
+    }
+    
+    .prev {
+        position: absolute;
+        cursor: pointer;
+        top: 450px;
+        width: auto;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        user-select: none;
+        transition: all 0.6s ease 0s;
+        border-radius: 0px 3px 3px 0px;
+        padding: 15px;
+    }
+    
+   .next{
+        position: absolute;
+        cursor: pointer;
+        right: 0px;
+        top: 450px;
+        width: auto;
+        margin-top: -22px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 16px;
+        user-select: none;
+        transition: all 0.6s ease 0s;
+        border-radius: 0px 3px 3px 0px;
+        padding: 15px;
+    
+   }
+
+    footer{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8em;
+        color: white;
+        Text-align: center;
+        height: 50px;
+        background-color: #66666650;
+        grid-row: 3;
+        grid-column: span 3;
+    }
+    
+    .footer-zert{
+        margin-top: 23px;
+    
+    }
+
+}
+
+@media (min-width: 850px) and (max-width: 1249px){
+    .navZert{
+        
+        width: 100vw;
+        background: rgb(61, 61, 61);
+        top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        z-index: 6;
+    }
+    .gridcontainer{
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: auto;
+        grid-template-columns: 50px auto 50px;
+    
+    }
+
+    .rectangle-zert{
+        
+        background-color: #666666;
+        height: 550px;
+        margin-bottom: 130px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .zergrid{
+        display:grid;
+        grid-template-columns: 50px auto auto auto auto 50px;
+    }
+    
+    #zertifikat {
+        
+        height: 550px;
+        width: 400px;
+        grid-column: 3;
+        
+    }
+    
+    
+    #zert-titel {
+
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        letter-spacing: 0.12em;
+        font-size: 1em;
+        color: rgb(245, 245, 245);
+        text-align: center;
+        grid-column: 4;
+        grid-row: 1;
+
+    }
+    
+    #zert-p {
+        float: right;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.8em;
+        color: rgb(245, 245, 245);
+        margin-top: 75px;
+        margin-left: 25px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .mySlides {
+        display: none;
+        
+    }
+    
+    .prev {
+        position: absolute;
+        cursor: pointer;
+        top: 400px;
+        width: auto;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        user-select: none;
+        transition: all 0.6s ease 0s;
+        border-radius: 0px 3px 3px 0px;
+        padding: 15px;
+    
+    }
+    
+   .next{
+        position: absolute;
+        cursor: pointer;
+        right: 0px;
+        top: 400px;
+        width: auto;
+        margin-top: -22px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 16px;
+        user-select: none;
+        transition: all 0.6s ease 0s;
+        border-radius: 0px 3px 3px 0px;
+        padding: 15px;
+    
+   }
+
+
+    footer{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8em;
+        color: white;
+        Text-align: center;
+        height: 50px;
+        background-color: #66666650;
+        grid-row: 3;
+        grid-column: span 3;
+    }
+    
+    .footer-zert{
+        margin-top: 23px;
+    
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 449px){
+    .navZert{
+        
+        width: 100vw;
+        background: rgb(61, 61, 61);
+        top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.2em;
+        font-weight: bold;
+        z-index: 6;
+    }
+    .gridcontainer{
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: auto;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    
+    }
+
+    .rectangle-zert{
+        
+        background-color: #666666;
+        height: 800px;
+        margin-bottom: 50px;
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+    
+    .zergrid{
+        display:grid;
+        grid-template-columns: 25px auto 25px;
+        grid-template-rows: auto auto auto;
+    }
+    
+    #zertifikat {
+        
+        height: 400px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    
+    #zert-titel {
+
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        letter-spacing: 0.12em;
+        font-size: 1em;
+        color: rgb(245, 245, 245);
+        text-align: center;
+        grid-column: 2;
+        grid-row: 2;
+
+    }
+    
+    #zert-p {
+        float: right;
+        margin: 0px;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.8em;
+        color: rgb(245, 245, 245);
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    .mySlides {
+        display: none;
+        
+    }
+
+   .prev {
+        position: absolute;
+        cursor: pointer;
+        top: 350px;
+        width: auto;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        user-select: none;
+        transition: all 0.6s ease 0s;
+        border-radius: 0px 3px 3px 0px;
+        padding: 5px;
+    
+    }
+    
+   .next{
+        position: absolute;
+        cursor: pointer;
+        right: 0px;
+        top: 350px;
+        width: auto;
+        margin-top: -22px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 16px;
+        user-select: none;
+        transition: all 0.6s ease 0s;
+        border-radius: 0px 3px 3px 0px;
+        padding: 5px;
+    
+   }
+
+   footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.6em;
+    color: white;
+    Text-align: center;
+    height: 50px;
+    background-color: #66666650;
+    grid-row: 3;
+    grid-column: span 3;
+}
+
+.footer-zert{
+    margin-top: 23px;
+
+}
+}
