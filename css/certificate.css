@@ -1,0 +1,26 @@
+.mySlides {
+    display:none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: auto;
+    height: 700px;
+    justify-content: center;
+    
+}
+
+body{
+    margin: 0px!important;
+    background-color: #615f5f!important;
+    color: white!important;
+    font-family: 'Courier New', Courier, monospace!important;
+    font-size: 1em!important;
+}

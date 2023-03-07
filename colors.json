@@ -1,0 +1,52 @@
+{
+    "colors": [
+      {
+        "color": "black",
+        "code": {
+          "hex": "#000"
+        }
+      },
+      {
+        "color": "dark gray",
+        "code": {
+          "hex": "#212529"
+        }
+      },
+      {
+        "color": "very light gray",
+        "code": {
+          "hex": "#f7f7f7"
+        }
+      },
+      {
+        "color": "shadow gray",
+        "code": {
+          "hex": "00000033"
+        }
+      },
+      {
+        "color": "gray",
+        "code": {
+          "hex": "#333"
+        }
+      },
+      {
+        "color": "hover gray",
+        "code": {
+          "hex": "#555"
+        }
+      },
+      {
+        "color": "hover gray",
+        "code": {
+          "hex": "#555"
+        }
+      },
+      {
+        "color": "light gray",
+        "code": {
+          "hex": "#615f5f"
+        }
+      }
+    ]
+  }

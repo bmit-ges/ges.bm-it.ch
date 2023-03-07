@@ -1,0 +1,222 @@
+/* overall settings*/
+
+body{
+    margin: 0px;
+    background-color: #615f5f;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+/* Navbar*/
+
+.navbar{
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+
+
+/*footer*/
+.footer-container{
+   
+    height: 50px;
+    width: 100%;
+    background-color: #212529;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-text{
+    font-weight: bold;
+    padding-top: 15px;    
+
+}
+
+/* Welcome */
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+  
+
+/* content */
+
+.conten-container{
+    margin-top:100px;
+    padding-left:300px;
+    padding-right:300px;
+
+}
+
+/* cv */
+.container-infos{
+    display: inline-block;
+    margin-bottom: 50px;
+    
+}
+
+.myimg{
+    border-radius: 10px;
+    float: left;
+    max-width: 500px;
+    height: auto;
+    margin-right: 50px;
+    border: 5px solid #212529;
+}
+
+
+/* login */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+
+.login-container {
+    width: 50%;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #00000033;
+    margin-right: 20px;
+    height: 450px;
+}
+
+
+
+.login-h2, .contact-h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form, .contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.login-label, .contact-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-input, .contact-input, .contact-input:focus {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+}
+
+.login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.login-button:hover {
+    background-color: #555;
+}
+
+/* Contact form */
+.contact-container {
+    width: 50%;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 450px;
+}
+.contact-h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-group {
+    margin-bottom: 20px;
+}
+
+.contact-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+}
+
+.contact-textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    color: #333;
+    resize: none;
+    height: 120px;
+}
+
+.contact-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #555;
+}
