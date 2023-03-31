@@ -61,9 +61,9 @@
     </nav>
 
     <div class="img-container">
-        <img class="slide" style="width: auto; height: 500px;" src="img/ecdl.jpg">
-        <img class="slide" style="width: auto; height: 500px;" src="img/imsf.jpg">
-        <img class="slide" style="width: auto; height: 500px;" src="img/multicheck.jpg">
+        <img class="slide" style="width: auto; height: 700px;" src="img/ecdl.jpg">
+        <img class="slide" style="width: auto; height: 700px;" src="img/imsf.jpg">
+        <img class="slide" style="width: auto; height: 700px;" src="img/multicheck.jpg">
     </div>
     <div class="button-container">
         
