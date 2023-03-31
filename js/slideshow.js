@@ -1,6 +1,6 @@
-function slideshow(){
+document.addEventListener('DOMContentLoaded', function() {
     var slideIndex = 1;
-        showDivs(slideIndex);
+    showDivs(slideIndex);
 
     function plusDivs(n) {
         showDivs(slideIndex += n);
@@ -25,5 +25,4 @@ function slideshow(){
 
         x[slideIndex-1].style.display = "block";  
     }
-
-}    
+})    
