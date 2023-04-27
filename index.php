@@ -189,7 +189,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <div class="projects-container">
                 <div class="container-projects">
                     <div class="flip-card">
                         <div class="flip-card-inner">
