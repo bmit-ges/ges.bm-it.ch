@@ -23,7 +23,7 @@ ul {
 .navbar{
     font-weight: bold;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     top: 0;
     z-index: 5;
