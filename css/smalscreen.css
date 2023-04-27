@@ -58,7 +58,7 @@
         margin-bottom: 0px;
     }
     .projects-container{
-        display: block;
+        display: block!important;
     }
     .flip-card-front img{
         max-width: 260px!important;
