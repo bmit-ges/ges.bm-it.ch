@@ -51,7 +51,7 @@
 
     .container-infos{
         display: block;
-        margin-bottom: 25px;
+        margin-bottom: 25px!important;
         
     }
     
@@ -68,6 +68,12 @@
     .flip-card {
         width: 300px!important;
         height: 300px!important;
+    }
+    .flip-card-front{
+        font-size: 0.9em;
+    }
+    .flip-card-back{
+        font-size: 0.8em;
     }
 
     .form-container {
