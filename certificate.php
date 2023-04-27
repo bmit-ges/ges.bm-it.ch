@@ -27,6 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ges.bm-it.ch</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/largescreen.css">
     <link rel="stylesheet" href="css/mediumscreen.css">
     <link rel="stylesheet" href="css/smalscreen.css">
