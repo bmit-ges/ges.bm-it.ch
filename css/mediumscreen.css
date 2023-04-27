@@ -26,10 +26,6 @@
         max-height: 100px;
     }
     
-    .footer-container{
-        max-width: 1024px;
-        min-width: 768px;
-    }
     .footer-text{
         font-size: 0.8em!important;        
     }
