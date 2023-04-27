@@ -16,20 +16,20 @@
 }
 
 .flip-card-front {
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #212529;
     overflow: hidden;
 }
 
 .flip-card-back {
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #212529;
     transform: rotateY(180deg);
     overflow: hidden;
 }
 
 .flip-card img{
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .flip-card-inner {
     padding: 20px;
