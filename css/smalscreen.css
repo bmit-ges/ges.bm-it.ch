@@ -43,7 +43,7 @@
         padding-right: 50px;
     }
     .myimg{
-        margin: 0 auto!important;
+        justify-content: center;
         max-width: 340px!important;
         height: auto;
         margin-bottom: 50px!important;
