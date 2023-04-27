@@ -57,6 +57,9 @@
     .container-accordion{
         margin-bottom: 0px;
     }
+    .projects-container{
+        display: block;
+    }
     .flip-card-front img{
         max-width: 260px!important;
         height: auto!important;
