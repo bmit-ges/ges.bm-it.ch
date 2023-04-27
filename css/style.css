@@ -5,12 +5,8 @@ body{
     background-color: #f4c1c1!important;
     color: #000000;
     /*font-family: 'Courier New', Courier, monospace;*/
-    font-family : 'Snell Roundhand, cursive'!important;
+    font-family : 'Palatino, URW Palladio L, serif'!important;
     font-size: 1em;
-}
-
-.navbar .navbar-expand-lg .navbar-dark .bg-dark{
-    background-color: #f97c7c!important;
 }
 
 a:link,
