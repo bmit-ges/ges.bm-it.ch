@@ -30,6 +30,12 @@
         font-size: 0.8em!important;        
     }
 
+    .navbar{
+
+        top: 50px;
+
+    }
+    
     /* content */
 
     .conten-container{
