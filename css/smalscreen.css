@@ -43,7 +43,8 @@
     }
     ul{
         margin-bottom: 25px;
-        padding: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .myimg{
         margin: 0 auto!important;
