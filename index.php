@@ -216,7 +216,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <h2>Zukünftige Projekte</h2>
-                            <img src="Placeholder.png" alt="Placeholder" width="460" height="auto" >
+                            <img src="img/Placeholder.png" alt="Placeholder" width="460" height="auto" >
                         </div>
                         <div class="flip-card-back">
                             <a href="">Weitere Projekte folgen bald.</a>
