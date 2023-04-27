@@ -1,18 +1,16 @@
 .projects-container {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -25px;
-
+    flex-wrap: wrap; /* hinzugefügt */
 }
-  
+
 .container-projects {
     margin-bottom: 50px;
     margin-right: 25px;
     margin-left: 25px;
-    
-    
+    width: calc(50% - 25px); /* hinzugefügt */
 }
 
 .flip-card-front {
