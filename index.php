@@ -165,6 +165,7 @@
                         <div class="flip-card-back">
                             <a href="https://github.com/ssiissii100/discordBot.git"> Git Repository</a>
                             <br>
+                            <br>
                             <p>
                                 Der Kitten Discord-Bot bietet zwei Funktionen: in Würfelspiel und die Pflege eines Haustiers. 
                                 Er wurde mit Python programmiert und verfügt über eine SQL-Datenbank zur Speicherung von Benutzern und Tieren.
@@ -183,6 +184,7 @@
                         </div>
                         <div class="flip-card-back">
                             <a href="https://github.com/bmit-ges/Projekte/tree/master/C%23/sibago"> Git Repository</a>
+                            <br>
                             <br>
                             <p>
                                 SibAgo ist ein C#-Spiel, das vom Anime Kakegurui inspiriert wurde und das Three Hit Dice-Spiel aus der Show verwendet. 
@@ -204,6 +206,7 @@
                         </div>
                         <div class="flip-card-back">
                             <a href="https://github.com/ssiissii100/AnimalQuiz"> Git Repository</a>
+                            <br>
                             <br>
                             <p>
                                 AnimalQuiz ist eine React-App, die mit React für sowohl das Backend als auch das Frontend entwickelt wurde. 
