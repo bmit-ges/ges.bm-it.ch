@@ -39,7 +39,7 @@
 
     .conten-container{
         margin-top:100px;
-        
+        padding: 0!important;
     }
     ul{
         margin-bottom: 25px;
