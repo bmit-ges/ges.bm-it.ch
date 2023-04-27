@@ -26,6 +26,9 @@
         max-height: 100px;
     }
     
+    .footer{
+        word-wrap: break-word;
+    }
 
     /* content */
 
@@ -57,7 +60,7 @@
         height: 300px!important;
     }
     .flip-card-front{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .flip-card-back{
         font-size: 0.8em;
