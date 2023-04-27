@@ -49,12 +49,17 @@
         margin-bottom: 50px!important;
     }
 
-
+    .container-infos{
+        display: block;
+        margin-bottom: 25px;
+        
+    }
+    
     .projects-container{
         display:block!important;
         align-items: center;
         margin-right: 10px;
-        
+        margin-bottom: 25px!important;
     }
     .flip-card-front img{
         max-width: 260px!important;
