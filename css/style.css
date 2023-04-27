@@ -3,15 +3,16 @@
 body{
     margin: 0px;
     background-color: #f4c1c1!important;
-    color: white;
+    color: #000000;
     /*font-family: 'Courier New', Courier, monospace;*/
-    font-family : 'Snell Roundhand, cursive';
+    font-family : 'Snell Roundhand, cursive'!important;
     font-size: 1em;
 }
 
 .navbar .navbar-expand-lg .navbar-dark .bg-dark{
     background-color: #f97c7c!important;
 }
+
 a:link,
 a:visited {
     text-decoration: none;
