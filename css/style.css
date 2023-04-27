@@ -2,7 +2,7 @@
 
 body{
     margin: 0px;
-    background-color: #615f5f;
+    background-color: 	#f4c1c1;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
@@ -34,7 +34,7 @@ ul {
    
     height: 50px;
     width: 100%;
-    background-color: #212529;
+    background-color: #f97c7c;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -53,10 +53,10 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #212529;
+    background-color: #f97c7c;
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px #ee6969;
     margin-bottom: 50px;
     margin-top: 100px;
 }
@@ -84,7 +84,7 @@ ul {
     max-width: 500px;
     height: auto;
     margin-right: 50px;
-    border: 5px solid #212529;
+    border: 5px solid #f97c7c;
 }
 
 
@@ -102,10 +102,10 @@ ul {
 
 .login-container {
     width: 50%;
-    background-color: #f7f7f7;
+    background-color: #fde0e0;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0px 0px 10px #00000033;
+    box-shadow: 0px 0px 10px #ee6969;
     margin-right: 20px;
     height: 450px;
 }
@@ -114,7 +114,7 @@ ul {
 
 .login-h2, .contact-h2 {
     text-align: center;
-    color: #333;
+    color: #fdaaaa;
 }
 
 .login-form, .contact-form {
@@ -129,7 +129,7 @@ ul {
 .login-label, .contact-label {
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #fdaaaa;
 }
 
 .login-input, .contact-input, .contact-input:focus {
@@ -138,7 +138,7 @@ ul {
     border-radius: 5px;
     background-color: #e6e6e6;
     font-size: 16px;
-    color: #333;
+    color: #fdaaaa;
     width: 100%;
 }
 
@@ -146,28 +146,28 @@ ul {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #fdaaaa;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .login-button:hover {
-    background-color: #555;
+    background-color: #f4c1c1;
 }
 
 /* Contact form */
 .contact-container {
     width: 50%;
-    background-color: #f7f7f7;
+    background-color: #fde0e0;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px #ee6969;
     height: 450px;
 }
 .contact-h2 {
     text-align: center;
-    color: #333;
+    color: #fdaaaa;
 }
 
 .contact-form {
@@ -182,7 +182,7 @@ ul {
 .contact-label {
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #fdaaaa;
 }
 
 .contact-input {
@@ -191,7 +191,7 @@ ul {
     border-radius: 5px;
     background-color: #e6e6e6;
     font-size: 16px;
-    color: #333;
+    color: #fdaaaa;
     width: 100%;
 }
 
@@ -201,7 +201,7 @@ ul {
     border-radius: 5px;
     background-color: #e6e6e6;
     font-size: 16px;
-    color: #333;
+    color: #fdaaaa;
     resize: none;
     height: 120px;
 }
@@ -210,7 +210,7 @@ ul {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #fdaaaa;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
@@ -218,5 +218,5 @@ ul {
 }
 
 .contact-button:hover {
-    background-color: #555;
+    background-color: #f4c1c1;
 }
