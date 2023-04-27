@@ -2,10 +2,9 @@
 
 body{
     margin: 0px;
-    background-color: #f4c1c1!important;
-    color: #000000!important;
-    /*font-family: 'Courier New', Courier, monospace;*/
-    font-family : "Brush Script MT"!important;
+    background-color: #555!important;
+    color: #ffffff!important;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }
 
@@ -35,7 +34,7 @@ ul {
    
     height: 50px;
     width: 100%;
-    background-color: #f97c7c;
+    background-color: #212529;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -54,10 +53,10 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f97c7c;
+    background-color: #212529;
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #ee6969;
+    box-shadow: 5px 5px 10px #00000033;
     margin-bottom: 50px;
     margin-top: 100px;
 }
@@ -85,7 +84,7 @@ ul {
     max-width: 500px;
     height: auto;
     margin-right: 50px;
-    border: 5px solid #f97c7c;
+    border: 5px solid #212529;
 }
 
 
@@ -103,10 +102,10 @@ ul {
 
 .login-container {
     width: 50%;
-    background-color: #fde0e0;
+    background-color: #f7f7f7;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0px 0px 10px #ee6969;
+    box-shadow: 0px 0px 10px #00000033;
     margin-right: 20px;
     height: 450px;
 }
@@ -115,7 +114,7 @@ ul {
 
 .login-h2, .contact-h2 {
     text-align: center;
-    color: #fdaaaa;
+    color: #333;
 }
 
 .login-form, .contact-form {
@@ -130,7 +129,7 @@ ul {
 .login-label, .contact-label {
     font-size: 16px;
     font-weight: bold;
-    color: #fdaaaa;
+    color: #333;
 }
 
 .login-input, .contact-input, .contact-input:focus {
@@ -139,7 +138,7 @@ ul {
     border-radius: 5px;
     background-color: #e6e6e6;
     font-size: 16px;
-    color: #fdaaaa;
+    color: #333;
     width: 100%;
 }
 
@@ -147,28 +146,28 @@ ul {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #fdaaaa;
+    background-color: #333;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .login-button:hover {
-    background-color: #f4c1c1;
+    background-color: #555;
 }
 
 /* Contact form */
 .contact-container {
     width: 50%;
-    background-color: #fde0e0;
+    background-color: #f7f7f7;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0px 0px 10px #ee6969;
+    box-shadow: 0px 0px 10px #00000033;
     height: 450px;
 }
 .contact-h2 {
     text-align: center;
-    color: #fdaaaa;
+    color: #333;
 }
 
 .contact-form {
@@ -183,7 +182,7 @@ ul {
 .contact-label {
     font-size: 16px;
     font-weight: bold;
-    color: #fdaaaa;
+    color: #333;
 }
 
 .contact-input {
@@ -192,7 +191,7 @@ ul {
     border-radius: 5px;
     background-color: #e6e6e6;
     font-size: 16px;
-    color: #fdaaaa;
+    color: #333;
     width: 100%;
 }
 
@@ -202,7 +201,7 @@ ul {
     border-radius: 5px;
     background-color: #e6e6e6;
     font-size: 16px;
-    color: #fdaaaa;
+    color: #333;
     resize: none;
     height: 120px;
 }
@@ -211,7 +210,7 @@ ul {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #fdaaaa;
+    background-color: #333;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
@@ -219,5 +218,5 @@ ul {
 }
 
 .contact-button:hover {
-    background-color: #f4c1c1;
+    background-color: #555;
 }

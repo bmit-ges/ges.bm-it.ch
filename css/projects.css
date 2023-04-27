@@ -17,13 +17,13 @@
 
 .flip-card-front {
     border-radius: 5px;
-    background-color: #f97c7c;
+    background-color: #212529;
     overflow: hidden;
 }
 
 .flip-card-back {
     border-radius: 5px;
-    background-color: #f97c7c;
+    background-color: #212529;
     transform: rotateY(180deg);
     overflow: hidden;
 }

@@ -9,13 +9,13 @@
       {
         "color": "dark gray",
         "code": {
-          "hex": "#f97c7c"
+          "hex": "#212529"
         }
       },
       {
         "color": "very light gray",
         "code": {
-          "hex": "#fde0e0"
+          "hex": "#f7f7f7"
         }
       },
       {
@@ -27,19 +27,19 @@
       {
         "color": "gray",
         "code": {
-          "hex": "#fdaaaa"
+          "hex": "#333"
         }
       },
       {
         "color": "hover gray",
         "code": {
-          "hex": "#f4c1c1"
+          "hex": "#555"
         }
       },
       {
         "color": "hover gray",
         "code": {
-          "hex": "#f4c1c1"
+          "hex": "#555"
         }
       },
       {
