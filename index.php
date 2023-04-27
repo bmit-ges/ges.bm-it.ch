@@ -92,8 +92,8 @@
                         Heute
                     </h2>
                     <p class="accordion-body">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-                        At vero eos et accusam et justo duo dolores et ea rebum. 
+                        Zurzeit befinde ich mich in der Ausbildung zur Informatikerin EFZ in der Fachrichtung Applikationsentwicklung.
+                        Meine Ausbildung habe ich im Jahr 2021 in der ESPAS gestartet.
                     </p>
                 </div>
                 <div>
@@ -191,6 +191,10 @@
                             </div>
                             <div class="flip-card-back">
                                 <a href="https://github.com/ssiissii100/AnimalQuiz"> Git Repository</a>
+                                <p>Der Kitten Discord-Bot bietet zwei Funktionen: in Würfelspiel und die Pflege eines Haustiers. 
+                                    Er wurde mit Python programmiert und verfügt über eine SQL-Datenbank zur Speicherung von Benutzern und Tieren.
+                                    Zusätzlich gibt es einen Shop für Tiernahrung, Haustiere und Accessoires.
+                                </p>
                             </div>
                         </div>
                     </div>
