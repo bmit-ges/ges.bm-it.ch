@@ -191,7 +191,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="projects-container">
                 <div class="container-projects">
                     <div class="flip-card">
@@ -216,7 +216,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <h2>Zukünftige Projekte</h2>
-                            <img src="" alt="Animal Quiz" width="460" height="auto" >
+                            <img src="Placeholder.png" alt="Placeholder" width="460" height="auto" >
                         </div>
                         <div class="flip-card-back">
                             <a href="">Weitere Projekte folgen bald.</a>
