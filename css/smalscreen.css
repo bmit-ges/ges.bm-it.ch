@@ -34,13 +34,13 @@
 
     .conten-container{
         margin-top:100px;
-        padding-left: 25px!important;
-        padding-right: 25px!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
     ul{
         margin-bottom: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .myimg{
         justify-content: center;
