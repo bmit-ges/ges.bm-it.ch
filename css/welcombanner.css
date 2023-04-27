@@ -51,7 +51,7 @@
 .typing-effect {
     opacity: 0;
     overflow: hidden;
-    border-right: .15em solid rgb(0, 0, 0); 
+    border-right: .15em solid #000000; 
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
@@ -74,5 +74,5 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0); }
+    50% { border-color: #000000; }
 }
