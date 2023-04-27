@@ -31,8 +31,11 @@
 
     .conten-container{
         margin-top:100px;
+        padding-left:150px;
+        padding-right:150px;
     
     }
+    
     ul{
         margin-bottom: 25px;
         padding: 0px;
@@ -45,12 +48,6 @@
     }
 
 
-    .projects-container{
-        display:block!important;
-        align-items: center;
-        margin-right: 10px;
-        
-    }
     .flip-card-front img{
         max-width: 260px!important;
         height: auto!important;
