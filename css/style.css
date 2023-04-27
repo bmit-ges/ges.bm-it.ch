@@ -32,9 +32,9 @@ ul {
 
 /*footer*/
 .footer-container{
-   
+    
+    display: flex;
     height: 50px;
-    width: 100%;
     background-color: #212529;
     text-align: center;
     position: fixed;
