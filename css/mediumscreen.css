@@ -56,7 +56,12 @@
         width: 300px!important;
         height: 300px!important;
     }
-
+    .flip-card-front{
+        font-size: 1em;
+    }
+    .flip-card-back{
+        font-size: 0.8em;
+    }
     .form-container {
         display:block!important;
     }
