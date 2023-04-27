@@ -13,12 +13,7 @@
         margin-top: 100px;
         margin-right: 0px;
     }
-    .conten-container{
-        margin-top:100px;
-        padding-left:50px;
-        padding-right:50px;
-    
-    }
+
     .typing-effect {
 
         font-size: 2em!important;
@@ -39,7 +34,8 @@
 
     .conten-container{
         margin-top:100px;
-        padding: 0!important;
+        padding-left:50px;
+        padding-right:50px;
     }
     ul{
         margin-bottom: 25px;
