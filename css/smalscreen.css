@@ -39,8 +39,8 @@
     }
     ul{
         margin-bottom: 25px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 50px!important;
+        padding-right: 50px!important;
     }
     .myimg{
         margin: 0 auto!important;
