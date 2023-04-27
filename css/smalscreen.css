@@ -13,7 +13,12 @@
         margin-top: 100px;
         margin-right: 0px;
     }
+    .conten-container{
+        margin-top:100px;
+        padding-left:50px;
+        padding-right:50px;
     
+    }
     .typing-effect {
 
         font-size: 2em!important;
@@ -27,7 +32,7 @@
     }
         
     .footer-text{
-        font-size: 0.6em!important;        
+        font-size: 0.8em!important;        
     }
 
     /* content */
@@ -42,7 +47,7 @@
     }
     .myimg{
         margin: 0 auto!important;
-        max-width: 320px!important;
+        max-width: 340px!important;
         height: auto;
         margin-bottom: 50px!important;
     }
