@@ -2,12 +2,16 @@
 
 body{
     margin: 0px;
-    background-color: 	#f4c1c1;
+    background-color: #f4c1c1!important;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family : 'Snell Roundhand, cursive';
     font-size: 1em;
 }
 
+.navbar .navbar-expand-lg .navbar-dark .bg-dark{
+    background-color: #f97c7c!important;
+}
 a:link,
 a:visited {
     text-decoration: none;
