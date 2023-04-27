@@ -163,6 +163,10 @@
                             </div>
                             <div class="flip-card-back">
                                 <a href="https://github.com/ssiissii100/discordBot.git"> Git Repository</a>
+                                <p>Der Kitten Discord-Bot bietet zwei Funktionen: in Würfelspiel und die Pflege eines Haustiers. 
+                                    Er wurde mit Python programmiert und verfügt über eine SQL-Datenbank zur Speicherung von Benutzern und Tieren.
+                                    Zusätzlich gibt es einen Shop für Tiernahrung, Haustiere und Accessoires.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -177,6 +181,10 @@
                             </div>
                             <div class="flip-card-back">
                                 <a href="https://github.com/bmit-ges/Projekte/tree/master/C%23/sibago"> Git Repository</a>
+                                <p>
+                                SibAgo ist ein C#-Spiel, das vom Anime Kakegurui inspiriert wurde und das Three Hit Dice-Spiel aus der Show verwendet. 
+                                Das Spielprinzip ist einfach: Die Spieler müssen die richtige Kombination aus einer Reihe von Würfen erraten, um die Runde zu gewinnen. 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -191,10 +199,25 @@
                             </div>
                             <div class="flip-card-back">
                                 <a href="https://github.com/ssiissii100/AnimalQuiz"> Git Repository</a>
-                                <p>Der Kitten Discord-Bot bietet zwei Funktionen: in Würfelspiel und die Pflege eines Haustiers. 
-                                    Er wurde mit Python programmiert und verfügt über eine SQL-Datenbank zur Speicherung von Benutzern und Tieren.
-                                    Zusätzlich gibt es einen Shop für Tiernahrung, Haustiere und Accessoires.
+                                <p>
+                                    AnimalQuiz ist eine React-App, die mit React für sowohl das Backend als auch das Frontend entwickelt wurde. 
+                                    Die Quizfragen sind in einer NoSQL-Datenbank, MongoDB, gespeichert.
+                                    Die App wurde im Rahmen einer Gruppenarbeit für die Schule erstellt und ich war für das Backend und die Datenbank zuständig.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projects">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <h2>Zukünftige Projekte</h2>
+                                <img src="" alt="Animal Quiz" width="460" height="auto" >
+                            </div>
+                            <div class="flip-card-back">
+                                <a href="">Weitere Projekte folgen bald.</a>
+
                             </div>
                         </div>
                     </div>
