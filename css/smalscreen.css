@@ -1,5 +1,10 @@
 @media screen and (max-width: 767px) {
     /* Welcome */
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .welcome-container {
         padding: 25px!important;
@@ -16,7 +21,7 @@
         margin-top: 25px!important;
     }
     
-
+    
     .box {
         width: 15px;
         max-height: 100px;
