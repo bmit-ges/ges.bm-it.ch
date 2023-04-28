@@ -43,15 +43,20 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .myimg{
-        max-width: 340px!important;
-        height: auto;
-        margin: 0 auto !important;
-    }
-
     .container-infos{
-        margin-bottom: 0px !important;
-        
+        display: inline-block;
+        margin-bottom: 50px;
+        clear: both;
+    }
+    
+    .myimg{
+        border-radius: 5px;
+        float: left;
+        max-width: 500px;
+        height: auto;
+        margin-right: 50px;
+        border: 5px solid #212529;
+        clear: both;
     }
     
     .container-accordion{
