@@ -65,27 +65,31 @@
                     <img class="myimg" src="img/profilbild.jpg" alt="profilbild">
                 </div>
                 
-                <ul>
-                    <li>Name: Sibylle Gehring</li>
-                    <li>Nationalität: Schweizerin</li>
-                    <li>Geburtsdatum: 18.12.1997</li>
-                    <li>Wohnort: Zürich</li>
+                <div>
+                    <ul>
+                        <li>Name: Sibylle Gehring</li>
+                        <li>Nationalität: Schweizerin</li>
+                        <li>Geburtsdatum: 18.12.1997</li>
+                        <li>Wohnort: Zürich</li>
 
-                </ul>
+                    </ul>
+                </div>
 
-                <p >
-                    Geboren und aufgewachsen bin ich in der Stadt Zürich, gemeinsam mit meinen
-                    Eltern und meinem älteren Bruder. Schon früh habe ich Interesse an Technologie gezeigt.
-                    Vor allem mein Vater hat mir dabei sehr vieles gezeigt und erklärt.
-                    Aber auch die Begeisterung für die Kunst wurde schon früh bei mir geweckt,
-                    diese kam vor allem von meinem Grossvater. Zu meinen Hobbies gehören daher Zeichnen,
-                    Malen in traditioneller aber auch digitaler Form. Zudem agiere ich schon seit meiner Grundschulzeit
-                    als erste Ansprechperson bei technischen Problemen welche Freunde, Familie aber auch damals
-                    Lehrpersonen immer wieder hatten. Die Liebe zur Technik lebe ich somit nicht nur im Beruf,
-                    sondern auch privat gerne aus, eine der grössten Freuden ist für mich,
-                    nachdem ein Problem gelöst wurde die Person, die Hilfe gesucht hat, zufrieden
-                    und glücklich zu sehen.
-                </p>
+                <div>
+                    <p >
+                        Geboren und aufgewachsen bin ich in der Stadt Zürich, gemeinsam mit meinen
+                        Eltern und meinem älteren Bruder. Schon früh habe ich Interesse an Technologie gezeigt.
+                        Vor allem mein Vater hat mir dabei sehr vieles gezeigt und erklärt.
+                        Aber auch die Begeisterung für die Kunst wurde schon früh bei mir geweckt,
+                        diese kam vor allem von meinem Grossvater. Zu meinen Hobbies gehören daher Zeichnen,
+                        Malen in traditioneller aber auch digitaler Form. Zudem agiere ich schon seit meiner Grundschulzeit
+                        als erste Ansprechperson bei technischen Problemen welche Freunde, Familie aber auch damals
+                        Lehrpersonen immer wieder hatten. Die Liebe zur Technik lebe ich somit nicht nur im Beruf,
+                        sondern auch privat gerne aus, eine der grössten Freuden ist für mich,
+                        nachdem ein Problem gelöst wurde die Person, die Hilfe gesucht hat, zufrieden
+                        und glücklich zu sehen.
+                    </p>
+                </div>
                 <div id="cv"></div>
             </div>
             <div class="container-accordion">
