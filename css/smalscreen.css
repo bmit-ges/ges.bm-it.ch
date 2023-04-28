@@ -47,7 +47,7 @@
         justify-content: center;
         max-width: 340px!important;
         height: auto;
-        margin-right: 0;
+        margin-right: 0!important;
         margin-bottom: 50px!important;
     }
 
