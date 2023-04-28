@@ -61,8 +61,10 @@
                 </div>
             </div>
             <div class="container-infos">
-
-                <img class="myimg" src="img/profilbild.jpg" alt="profilbild">
+                <div>
+                    <img class="myimg" src="img/profilbild.jpg" alt="profilbild">
+                </div>
+                
                 <ul>
                     <li>Name: Sibylle Gehring</li>
                     <li>Nationalität: Schweizerin</li>
