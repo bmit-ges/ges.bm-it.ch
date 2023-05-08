@@ -7,16 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="js/accordion.js"></script>
 
     <title>ges.bm-it.ch</title>
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/largescreen.css">
@@ -34,29 +31,29 @@
 
 <body>
 
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cv">Lebenslauf</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projekte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Zertifikate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <content>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="navbar">
-                        <a class="nav-link" href="#aboutme">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cv">Lebenslauf</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projekte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#form">Zertifikate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#form">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
         <div class="conten-container">
             <div class="welcome-container">
                 <div class="box">
@@ -64,34 +61,29 @@
                 </div>
             </div>
             <div class="container-infos">
-                <div class="img">
-                    <img class="myimg" src="img/profilbild.jpg" alt="profilbild">
-                </div>
+            
+                <img class="myimg" src="img/profilbild.jpg" alt="profilbild">
+                <ul>
+                    <li>Name: Sibylle Gehring</li>
+                    <li>Nationalität: Schweizerin</li>
+                    <li>Geburtsdatum: 18.12.1997</li>
+                    <li>Wohnort: Zürich</li>
 
-                <div class="info">
-                    <ul>
-                        <li>Name: Sibylle Gehring</li>
-                        <li>Nationalität: Schweizerin</li>
-                        <li>Geburtsdatum: 18.12.1997</li>
-                        <li>Wohnort: Zürich</li>
+                </ul>
 
-                    </ul>
-                    <p>
-                        Geboren und aufgewachsen bin ich in der Stadt Zürich, gemeinsam mit meinen
-                        Eltern und meinem älteren Bruder. Schon früh habe ich Interesse an Technologie gezeigt.
-                        Vor allem mein Vater hat mir dabei sehr vieles gezeigt und erklärt.
-                        Aber auch die Begeisterung für die Kunst wurde schon früh bei mir geweckt,
-                        diese kam vor allem von meinem Grossvater. Zu meinen Hobbies gehören daher Zeichnen,
-                        Malen in traditioneller aber auch digitaler Form. Zudem agiere ich schon seit meiner
-                        Grundschulzeit
-                        als erste Ansprechperson bei technischen Problemen welche Freunde, Familie aber auch damals
-                        Lehrpersonen immer wieder hatten. Die Liebe zur Technik lebe ich somit nicht nur im Beruf,
-                        sondern auch privat gerne aus, eine der grössten Freuden ist für mich,
-                        nachdem ein Problem gelöst wurde die Person, die Hilfe gesucht hat, zufrieden
-                        und glücklich zu sehen.
-                    </p>
-                </div>
-
+                <p >
+                    Geboren und aufgewachsen bin ich in der Stadt Zürich, gemeinsam mit meinen
+                    Eltern und meinem älteren Bruder. Schon früh habe ich Interesse an Technologie gezeigt.
+                    Vor allem mein Vater hat mir dabei sehr vieles gezeigt und erklärt.
+                    Aber auch die Begeisterung für die Kunst wurde schon früh bei mir geweckt,
+                    diese kam vor allem von meinem Grossvater. Zu meinen Hobbies gehören daher Zeichnen,
+                    Malen in traditioneller aber auch digitaler Form. Zudem agiere ich schon seit meiner Grundschulzeit
+                    als erste Ansprechperson bei technischen Problemen welche Freunde, Familie aber auch damals
+                    Lehrpersonen immer wieder hatten. Die Liebe zur Technik lebe ich somit nicht nur im Beruf,
+                    sondern auch privat gerne aus, eine der grössten Freuden ist für mich,
+                    nachdem ein Problem gelöst wurde die Person, die Hilfe gesucht hat, zufrieden
+                    und glücklich zu sehen.
+                </p>
                 <div id="cv"></div>
             </div>
             <div class="container-accordion">
@@ -100,8 +92,7 @@
                         Heute
                     </h2>
                     <p class="accordion-body">
-                        Zurzeit befinde ich mich in der Ausbildung zur Informatikerin EFZ in der Fachrichtung
-                        Applikationsentwicklung.
+                        Zurzeit befinde ich mich in der Ausbildung zur Informatikerin EFZ in der Fachrichtung Applikationsentwicklung.
                         Meine Ausbildung habe ich im Jahr 2021 in der ESPAS gestartet.
                     </p>
                 </div>
@@ -111,10 +102,8 @@
                     </h2>
                     <p class="accordion-body">
 
-                        Nach einer schwierigen Zeit raffte ich mich auf und fing bei der Firma ESPAS ein Aufbautraining
-                        an.
-                        Schon schnell waren Fortschritte zusehen, weswegen ich nach vier Monaten bereits die
-                        Berufsvorbereitung in der internen Informatikabteilung beginnen konnte.
+                        Nach einer schwierigen Zeit raffte ich mich auf und fing bei der Firma ESPAS ein Aufbautraining an.
+                        Schon schnell waren Fortschritte zusehen, weswegen ich nach vier Monaten bereits die Berufsvorbereitung in der internen Informatikabteilung beginnen konnte.
                     </p>
                 </div>
                 <div>
@@ -122,11 +111,8 @@
                         2019
                     </h2>
                     <p class="accordion-body">
-                        Nach einer halbjährigen Pause, nach meinem IMS F Abschluss, entschied ich mich übergangsmässig
-                        ein drei Monatiges Praktikum im kaufmännischen Bereich zu machen.
-                        Das Praktikum absolvierte ich im Verein für Behinderten-Reisen. Während dieser Zeit war ich für
-                        die Disposition verantwortlich und lernte das zusammenarbeiten mit beeinträchtigten Menschen
-                        noch besser umzusetzen.
+                        Nach einer halbjährigen Pause, nach meinem IMS F Abschluss, entschied ich mich übergangsmässig ein drei Monatiges Praktikum im kaufmännischen Bereich zu machen.
+                        Das Praktikum absolvierte ich im Verein für Behinderten-Reisen. Während dieser Zeit war ich für die Disposition verantwortlich und lernte das zusammenarbeiten mit beeinträchtigten Menschen noch besser umzusetzen.
                     </p>
                 </div>
                 <div>
@@ -134,9 +120,7 @@
                         2016 - 2018
                     </h2>
                     <p class="accordion-body">
-                        Um meinen Sekundarabschluss zu erweitern, habe ich mich schliesslich dazu entschieden, an der
-                        Atelierschule den IMS F Abschluss zu machen, dieser ist gleichwertig wie der
-                        Fachmittelschulabschluss.
+                        Um meinen Sekundarabschluss zu erweitern, habe ich mich schliesslich dazu entschieden, an der Atelierschule den IMS F Abschluss zu machen, dieser ist gleichwertig wie der Fachmittelschulabschluss.
                         Spezialisiert habe ich mich dabei auf Mathematik, Chemie, Biochemie und Eurythmie.
                     </p>
                 </div>
@@ -145,10 +129,8 @@
                         2014 - 2015
                     </h2>
                     <p class="accordion-body">
-                        Meine erste Lehre fing ich als Bekleidungsgestalterin Fachrichtung Damenbekleidung an der
-                        Fachschule für Mode und Gestaltung, Modeco, an.
-                        Nach einem Jahr brach ich diese jedoch ab, da ich merkte, dass das Arbeiten mit Technik mir doch
-                        sehr fehlt.
+                        Meine erste Lehre fing ich als Bekleidungsgestalterin Fachrichtung Damenbekleidung an der Fachschule für Mode und Gestaltung, Modeco, an.
+                        Nach einem Jahr brach ich diese jedoch ab, da ich merkte, dass das Arbeiten mit Technik mir doch sehr fehlt.
                     </p>
                 </div>
                 <div>
@@ -157,19 +139,16 @@
                     </h2>
                     <p class="accordion-body">
 
-                        Das Berufvorbereitungsjahr absolvierte ich an der Fachschule Viventa. Ich entschied mich damals
-                        für die Fachrichtung Gestaltung und Kunst.
-                        Neben den normalen Schulfächern besuchte ich ebenfalls den Informatikunterricht, Theater,
-                        bildnerisches Gestalten und dreidimensionales Gestalten als Unterrichtsfächer
+                        Das Berufvorbereitungsjahr absolvierte ich an der Fachschule Viventa. Ich entschied mich damals für die Fachrichtung Gestaltung und Kunst.
+                        Neben den normalen Schulfächern besuchte ich ebenfalls den Informatikunterricht, Theater, bildnerisches Gestalten und dreidimensionales Gestalten als Unterrichtsfächer
                     </p>
                 </div>
                 <div>
                     <h2 class="accordion-header">
                         2010 - 2013
                     </h2>
-                    <p class="accordion-body">
-                        Während den drei Jahren Sekundarschule besuchte ich in Albisrieden das Schulhaus Letzi auf
-                        Sekundarniveau A mit der Einstufung 1 in Mathematik und 2 in Französisch.
+                    <p class="accordion-body" >
+                        Während den drei Jahren Sekundarschule besuchte ich in Albisrieden das Schulhaus Letzi auf Sekundarniveau A mit der Einstufung 1 in Mathematik und 2 in Französisch.
                     </p>
                 </div>
                 <div id="projects"></div>
@@ -178,46 +157,41 @@
             <div class="projects-container">
                 <div class="container-projects">
                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <h2>Python</h2>
-                                <img src="img/Discordbot.png" alt="Discord Bot" width="460" height="autp">
-                            </div>
-                            <div class="flip-card-back">
-                                <a href="https://github.com/ssiissii100/discordBot.git"> Git Repository</a>
-                                <br>
-                                <br>
-                                <p>
-                                    Der Kitten Discord-Bot bietet zwei Funktionen: in Würfelspiel und die Pflege eines
-                                    Haustiers.
-                                    Er wurde mit Python programmiert und verfügt über eine SQL-Datenbank zur Speicherung
-                                    von Benutzern und Tieren.
-                                    Zusätzlich gibt es einen Shop für Tiernahrung, Haustiere und Accessoires.
-                                </p>
-                            </div>
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h2>Python</h2>
+                            <img src="img/Discordbot.png" alt="Discord Bot" width="460" height="autp" >
                         </div>
+                        <div class="flip-card-back">
+                            <a href="https://github.com/ssiissii100/discordBot.git"> Git Repository</a>
+                            <br>
+                            <br>
+                            <p>
+                                Der Kitten Discord-Bot bietet zwei Funktionen: in Würfelspiel und die Pflege eines Haustiers. 
+                                Er wurde mit Python programmiert und verfügt über eine SQL-Datenbank zur Speicherung von Benutzern und Tieren.
+                                Zusätzlich gibt es einen Shop für Tiernahrung, Haustiere und Accessoires.
+                            </p>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div class="container-projects">
                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <h2>C#</h2>
-                                <img src="img/Sibago.png" alt="Csharp Game" width="460" height="auto">
-                            </div>
-                            <div class="flip-card-back">
-                                <a href="https://github.com/bmit-ges/Projekte/tree/master/C%23/sibago"> Git
-                                    Repository</a>
-                                <br>
-                                <br>
-                                <p>
-                                    SibAgo ist ein C#-Spiel, das vom Anime Kakegurui inspiriert wurde und das Three Hit
-                                    Dice-Spiel aus der Show verwendet.
-                                    Das Spielprinzip ist einfach: Die Spieler müssen die richtige Kombination aus einer
-                                    Reihe von Würfen erraten, um die Runde zu gewinnen.
-                                </p>
-                            </div>
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h2>C#</h2>
+                            <img src="img/Sibago.png" alt="Csharp Game" width="460" height="auto" >
                         </div>
+                        <div class="flip-card-back">
+                            <a href="https://github.com/bmit-ges/Projekte/tree/master/C%23/sibago"> Git Repository</a>
+                            <br>
+                            <br>
+                            <p>
+                                SibAgo ist ein C#-Spiel, das vom Anime Kakegurui inspiriert wurde und das Three Hit Dice-Spiel aus der Show verwendet. 
+                                Das Spielprinzip ist einfach: Die Spieler müssen die richtige Kombination aus einer Reihe von Würfen erraten, um die Runde zu gewinnen. 
+                            </p>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -225,45 +199,43 @@
             <div class="projects-container">
                 <div class="container-projects">
                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <h2>React</h2>
-                                <img src="img/Animalquiz.png" alt="Animal Quiz" width="460" height="auto">
-                            </div>
-                            <div class="flip-card-back">
-                                <a href="https://github.com/ssiissii100/AnimalQuiz"> Git Repository</a>
-                                <br>
-                                <br>
-                                <p>
-                                    AnimalQuiz ist eine React-App, die mit React für sowohl das Backend als auch das
-                                    Frontend entwickelt wurde.
-                                    Die Quizfragen sind in einer NoSQL-Datenbank, MongoDB, gespeichert.
-                                    Die App wurde im Rahmen einer Gruppenarbeit für die Schule erstellt und ich war für
-                                    das Backend und die Datenbank zuständig.
-                                </p>
-                            </div>
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h2>React</h2>
+                            <img src="img/Animalquiz.png" alt="Animal Quiz" width="460" height="auto" >
                         </div>
+                        <div class="flip-card-back">
+                            <a href="https://github.com/ssiissii100/AnimalQuiz"> Git Repository</a>
+                            <br>
+                            <br>
+                            <p>
+                                AnimalQuiz ist eine React-App, die mit React für sowohl das Backend als auch das Frontend entwickelt wurde. 
+                                Die Quizfragen sind in einer NoSQL-Datenbank, MongoDB, gespeichert.
+                                Die App wurde im Rahmen einer Gruppenarbeit für die Schule erstellt und ich war für das Backend und die Datenbank zuständig.
+                            </p>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div class="container-projects">
                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <h2>Zukünftige Projekte</h2>
-                                <img src="img/Placeholder.png" alt="Placeholder" width="460" height="auto">
-                            </div>
-                            <div class="flip-card-back">
-                                <a href="">Weitere Projekte folgen bald.</a>
-                            </div>
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h2>Zukünftige Projekte</h2>
+                            <img src="img/Placeholder.png" alt="Placeholder" width="460" height="auto" >
+                        </div>
+                        <div class="flip-card-back">
+                            <a href="">Weitere Projekte folgen bald.</a>
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div id="form"></div>
+                <div id="form" ></div>
             </div>
 
-            <div class="form-container">
-                <div class="login-container">
-
+            <div class="form-container" >
+                <div class="login-container" >
+                    
                     <h2 class="login-h2">Login</h2>
                     <?php
                         if (isset($_GET['login'])) {
@@ -307,21 +279,18 @@
                             <br>
                             <textarea class="contact-input" id="message" name="message" required></textarea>
                         </div>
-                        <button class="contact-button" type="submit" name="submit-contact"
-                            id="submit-contact">Send</button>
+                        <button class="contact-button" type="submit" name="submit-contact" id="submit-contact">Send</button>
                     </form>
                 </div>
             </div>
         </div>
-
-        <footer>
-            <div class="footer-container">
-                <p class="footer-text"> Erstellt von Sibylle Gehring | HTML, CSS, JS, JQuery, PHP, Bootstrap</p>
-            </div>
-        </footer>
     </content>
 
-
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text"> Erstellt von Sibylle Gehring | HTML, CSS, JS, JQuery, PHP, Bootstrap</p>
+        </div>
+    </footer>
 
 </body>
 
