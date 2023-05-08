@@ -30,6 +30,10 @@
         font-size: 0.8em!important;        
     }
 
+    .container-infos {
+        
+        flex-direction: column;
+    }
     
     /* content */
 

@@ -1,9 +1,9 @@
 /* overall settings*/
 
-body{
+body {
     margin: 0px;
-    background-color: #555!important;
-    color: #ffffff!important;
+    background-color: #555 !important;
+    color: #ffffff !important;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }
@@ -12,27 +12,43 @@ a:link,
 a:visited {
     text-decoration: none;
     color: inherit;
+    padding-right: 1.5vw;
+    
 }
 
 ul {
-    list-style-type: none; 
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* Navbar*/
 
-.navbar{
+.navbar {
     font-weight: bold;
     position: fixed;
     width: 100vw;
-    text-align: center!important;
+    text-align: center !important;
     top: 0;
     z-index: 5;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #212529;
+    padding: 1rem 0rem;
+    margin-top: -1rem;
+    text-transform: uppercase;
 }
 
 
 /*footer*/
-.footer-container{
-   
+.footer-container {
+
     height: 50px;
     width: 100vw;
     background-color: #212529;
@@ -42,9 +58,9 @@ ul {
     left: 0;
 }
 
-.footer-text{
+.footer-text {
     font-weight: bold;
-    padding-top: 15px;    
+    padding-top: 15px;
 
 }
 
@@ -52,7 +68,6 @@ ul {
 
 .welcome-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #212529;
     padding: 50px;
@@ -61,31 +76,42 @@ ul {
     margin-bottom: 50px;
     margin-top: 100px;
 }
-  
+
 
 /* content */
 
-.conten-container{
-    margin-top:100px;
-    padding-left:300px;
-    padding-right:300px;
 
-}
+.conten-container {}
 
 /* cv */
-.container-infos{
-    display: inline-block;
+.container-infos {
     margin-bottom: 50px;
-    
+    margin-left: 5vw;
+    max-width: 80vw;
+    padding: 10px;
+    box-sizing: content-box;
+    display: flex;
 }
 
-.myimg{
+.container {
+    justify-content: space-between;
+
+}
+
+.myimg {
     border-radius: 5px;
-    float: left;
-    max-width: 500px;
-    height: auto;
-    margin-right: 50px;
+    max-width: 40vw;
     border: 5px solid #212529;
+}
+
+.img {
+    float: left;
+    margin-bottom: 2vw;
+    margin-right: 2vw;
+}
+
+.info {
+    float: right;
 }
 
 
@@ -153,6 +179,7 @@ ul {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .login-button:hover {
     background-color: #555;
 }
@@ -166,6 +193,7 @@ ul {
     box-shadow: 0px 0px 10px #00000033;
     height: 450px;
 }
+
 .contact-h2 {
     text-align: center;
     color: #333;

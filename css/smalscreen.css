@@ -43,20 +43,16 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .container-infos{
-        display: inline-block;
-        margin-bottom: 50px;
-        clear: both;
-    }
-    
     .myimg{
-        border-radius: 5px;
         float: left;
-        max-width: 500px;
+        max-width: 340px!important;
         height: auto;
-        margin-right: 50px;
-        border: 5px solid #212529;
-        clear: both;
+        margin: 0 auto !important;
+    }
+
+    .container-infos{
+        margin-bottom: 0px !important;
+        
     }
     
     .container-accordion{
